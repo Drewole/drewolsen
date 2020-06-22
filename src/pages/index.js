@@ -1,9 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import "../scss/main.scss"
+import "../js/main.js"
+
+import Header from "../components/Header"
+import About from "../components/About"
+// import Resume from '../components/Resume';
+import Portfolio from "../components/Portfolio"
+// import Testimonials from '../components/Testimonials';
+import Footer from "../components/Footer"
+
 import Image from "../components/image"
-import SEO from "../components/seo"
+import { siteMetadata } from "../../gatsby-config"
 
 const IndexPage = () => (
   <Layout>
