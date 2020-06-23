@@ -5,17 +5,17 @@ import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa"
 const SocialLinks = () => (
   <ul className="social">
     <li>
-      <a target="_blank" href="https://twitter.com/drewole">
+      <a rel="noopener" href="https://twitter.com/drewole">
         <FaTwitter />
       </a>
     </li>
     <li>
-      <a target="_blank" href="https://instagram.com/drewole">
+      <a rel="noopener" href="https://instagram.com/drewole">
         <FaInstagram />
       </a>
     </li>
     <li>
-      <a target="_blank" href="https://github.com/drewole">
+      <a rel="noopener" href="https://github.com/drewole">
         <FaGithub />
       </a>
     </li>

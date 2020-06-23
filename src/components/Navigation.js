@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Sitetitle from './Sitetitle';
+
 const isCurrent = (anchor, pathname) => (pathname.endsWith(anchor) ? 'current' : '');
 class Navigation extends React.Component {
 	state = {
@@ -14,7 +16,7 @@ class Navigation extends React.Component {
 		const { pathname = '' } = this.state;
 		return (
 			<nav id="nav-wrap">
-				<a className="mobile-btn" href="#nav-wrap" />
+				<Sitetitle />
 				<ul id="nav" className="nav">
 					<li className={isCurrent('#home', pathname)}>
 						<a className="smoothscroll" href="#home">
@@ -27,7 +29,7 @@ class Navigation extends React.Component {
 						</a>
 					</li>
 					<li className={isCurrent('#resume', pathname)}>
-						<a className="smoothscroll resume" target="_blank" href="/downloads/DrewOlsenResume.pdf">
+						<a className="smoothscroll resume" rel="noopener" href="/downloads/DrewOlsenResume.pdf">
 							Resumé
 						</a>
 					</li>
