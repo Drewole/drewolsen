@@ -5,7 +5,8 @@
     "type": "Website",
     "description": "README.md",
     "tags": "['responsive','custom theme', 'SCSS', 'Wordpress' ]",
-    "images": "/images/"
+    "imagesSlug": "/images/",
+    "hasSite": "true"
   },
   {
     "name": "Arrowawnings.com",
@@ -13,6 +14,7 @@
     "type": "Website",
     "description": "README.md",
     "tags": "['responsive','custom theme', 'SCSS', 'Wordpress']",
-    "images": "/images/"
+    "images": "/images/",
+    "hasSite": "true"
   }
 ]
