@@ -1,9 +1,9 @@
 import React from 'react';
+import { graphql } from 'gatsby'; // eslint-disable-line no-use-before-define
 
+import Image from 'gatsby-image'; // eslint-disable-line no-use-before-define
 
 import SocialLinks from './SocialLinks';
-
-
 
 const Banner = () => (
 	<div className="row banner">
@@ -13,7 +13,6 @@ const Banner = () => (
 				A Multi-faceted Front-End Web Developer with a knack for effectively conceptualizing and delivering
 				elegant, user-friendly solutions.<br />
 				<a className="smoothscroll" href="#portfolio">
-					{' '}
 					View My Portfolio <span>&#x21C9;</span>
 				</a>
 			</h3>

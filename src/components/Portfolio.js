@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaPlus, FaTag } from 'react-icons/fa';
 
-import Coffee from '../images/portfolio/coffee.jpg';
-import Console from '../images/portfolio/console.jpg';
-import Judah from '../images/portfolio/judah.jpg';
-import IntoTheLight from '../images/portfolio/into-the-light.jpg';
+import Coffee from '../images/portfolio/mnapt-square.jpg';
+import Arrow from '../images/portfolio/arrow-square.jpg';
+import Judah from '../images/portfolio/sweetbasil-square.jpg';
+import IntoTheLight from '../images/portfolio/jrhoades2017-square.jpg';
 
 import CoffeeModal from '../images/portfolio/modals/m-coffee.jpg';
 import ConsoleModal from '../images/portfolio/modals/m-console.jpg';
@@ -16,7 +16,6 @@ const Portfolio = () => (
 		<div className="row">
 			<div className="twelve columns collapsed">
 				<h1>Some of My Work.</h1>
-
 				<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 					<div className="columns portfolio-item">
 						<div className="item-wrap">
@@ -24,8 +23,8 @@ const Portfolio = () => (
 								<img alt="" src={Coffee} />
 								<div className="overlay">
 									<div className="portfolio-item-meta">
-										<h5>Coffee</h5>
-										<p>Illustration</p>
+										<h5>MNAPT</h5>
+										<p>Web Design, Web Development</p>
 									</div>
 								</div>
 								<div className="link-icon">
@@ -38,10 +37,10 @@ const Portfolio = () => (
 					<div className="columns portfolio-item">
 						<div className="item-wrap">
 							<a href="#modal-02" title="">
-								<img alt="" src={Console} />
+								<img alt="" src={Arrow} />
 								<div className="overlay">
 									<div className="portfolio-item-meta">
-										<h5>Console</h5>
+										<h5>Arrow</h5>
 										<p>Web Development</p>
 									</div>
 								</div>

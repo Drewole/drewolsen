@@ -19,11 +19,8 @@ const About = () => (
 					technical side of Front End Website Development. My foray into Responsive websites started eight
 					years ago and I have continued striving to be on the cutting edge of the new
 					technologies/methodologies emerging ever since. I strive to always improve the quality of work I can
-					provide my clients and ensure I am using the most appropriate technology for their project. Oh, and
-					I have an unhealthy fondness for{' '}
-					<a target="_blank" rel="noreferrer" href={montserratLink}>
-						Montserrat.
-					</a>
+					provide my clients and ensure I am using the most appropriate technology for their project. Thank
+					you for taking the time to look at my work.
 				</p>
 
 				<h3>My skills include but are not limited to:</h3>

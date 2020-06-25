@@ -1,20 +1,282 @@
 [
-  {
-    "name": "Staincrete.com",
-    "slug": "staincrete",
-    "type": "Website",
-    "description": "README.md",
-    "tags": "['responsive','custom theme', 'SCSS', 'Wordpress' ]",
-    "imagesSlug": "/images/",
-    "hasSite": "true"
-  },
-  {
-    "name": "Arrowawnings.com",
-    "slug": "arrow-awnings",
-    "type": "Website",
-    "description": "README.md",
-    "tags": "['responsive','custom theme', 'SCSS', 'Wordpress']",
-    "images": "/images/",
-    "hasSite": "true"
-  }
+	{
+		"name": "Staincrete Decorative Concrete",
+		"slug": "/staincrete/",
+		"type": "Website",
+		"description": "README.md",
+		"tags": "['responsive','custom theme', 'SCSS', 'Wordpress','concrete' ]",
+		"images": {
+			"square": "./staincrete-square.jpg",
+			"frontPage": "./staincrete.jpg",
+			"insidePage": "./staincrete-showcase.jpg",
+			"mobile": "./staincrete-mobile.jpg"
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "Arrow Components",
+		"slug": "/arrow/",
+		"type": "Website",
+		"description": "README.md",
+		"tags": "['responsive','custom theme', 'SCSS', 'Wordpress', 'manufacturing']",
+		"images": {
+			"square": "./arrow-square.jpg",
+			"frontPage": "./arrow.jpg",
+			"insidePage": "./arrow-inside.jpg",
+			"mobile": "./arrow-mobile.jpg"
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "Sweet Basil Restaurant",
+		"slug": "/sweetbasil/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['static','custom design', 'built 2010', 'restuarant']",
+		"images": {
+			"square": "./sweetbasil-square.jpg",
+			"frontPage": "./sweetbasil.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "Aggregate MN",
+		"slug": "/aggregate2016/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['Responsive','Custom Design', 'SCSS', 'Wordpress', 'concrete']",
+		"images": {
+			"square": "./aggregate2016-square.jpg",
+			"frontPage": "./aggregate2016.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Aggregate MN",
+		"slug": "/aggregate2012/",
+		"type": "Website Design/Development",
+		"description": "README.md",
+		"tags": "['Responsive','Custom Design', 'SCSS', 'Wordpress', 'concrete']",
+		"images": {
+			"square": "./aggregate2012-square.jpg",
+			"frontPage": "./aggregate2012.jpg",
+			"insidePage": "",
+			"mobile": "./aggregate2012-mobile.jpg"
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Boys'n the Barrel",
+		"slug": "/boysinthebarrel/",
+		"type": "Website Design",
+		"description": "README.md",
+		"tags": "['custom design', 'splash', 'band']",
+		"images": {
+			"square": "./boysinthebarrel-square.jpg",
+			"frontPage": "./boysinthebarrel.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Nightingale",
+		"slug": "/nightingale/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom design', 'SCSS','restaurant', 'Wordpress', 'Custom Theme']",
+		"images": {
+			"square": "./nightingale-square.jpg",
+			"frontPage": "./nightingale.jpg",
+			"insidePage": "./nightingale-inside.jpg",
+			"mobile": "./nightingale-mobile.jpg"
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "Chef Jeff Catering",
+		"slug": "/chefjeff/",
+		"type": "Website Design",
+		"description": "README.md",
+		"tags": "[ 'custom design', 'catering', 'splash']",
+		"images": {
+			"square": "./chefjeff-square.jpg",
+			"frontPage": "./chefjeff.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Contractualize",
+		"slug": "/contractualize/",
+		"type": "Website Concept",
+		"description": "README.md",
+		"tags": "['responsive','concept', 'SCSS','online app', 'Angular']",
+		"images": {
+			"square": "./contractualize-square.jpg",
+			"frontPage": "./contractualize.jpg",
+			"insidePage": "./contractualize-inside.jpg",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Jrhoades 2017",
+		"slug": "/jrhoades2017/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','design', 'SCSS', 'development','web', 'custom theme', 'Wordpress']",
+		"images": {
+			"square": "./jrhoades2017-square.jpg",
+			"frontPage": "./jrhoades2017.jpg",
+			"insidePage": "./jrhoades2017-inside.jpg",
+			"mobile": "./jrhoades2017-mobile.jpg"
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Jrhoades 2012",
+		"slug": "/jrhoades2012/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom theme', 'SCSS','web', 'Wordpress']",
+		"images": {
+			"square": "./jrhoades2012-square.jpg",
+			"frontPage": "./jrhoades2012.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Infinite Graphics",
+		"slug": "/igi/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom design', 'SCSS', 'Wordpress','technology', 'Custom Theme']",
+		"images": {
+			"square": "./igi-square.jpg",
+			"frontPage": "./igi.jpg",
+			"insidePage": "./igi-inside.jpg",
+			"mobile": "./igi-mobile.jpg"
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "MNAPT",
+		"slug": "/mnapt/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom design', 'SCSS','non-profit', 'Wordpress', 'Custom Theme']",
+		"images": {
+			"square": "./mnapt-square.jpg",
+			"frontPage": "./mnapt.jpg",
+			"insidePage": "./mnapt-inside.jpg",
+			"mobile": "./mnapt-mobile.jpg"
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "Lyndale Animal Hospital",
+		"slug": "/lyndaleanimalhospital/",
+		"type": "Website Design",
+		"description": "README.md",
+		"tags": "['Retro', 'Custom Design', 'splash', 'pets']",
+		"images": {
+			"square": "./lyndaleanimalhospital-square.jpg",
+			"frontPage": "./lyndaleanimalhospital.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "Tablerock Land Services",
+		"slug": "/tablerock/",
+		"type": "Website Design",
+		"description": "README.md",
+		"tags": "['custom design', 'splash', 'real estate']",
+		"images": {
+			"square": "./tablerock-square.jpg",
+			"frontPage": "./tablerock.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "PDR & Remodeling",
+		"slug": "/pdr/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['construction','responsive','custom design', 'SCSS', 'Wordpress', 'Custom Theme']",
+		"images": {
+			"square": "./pdr-square.jpg",
+			"frontPage": "./pdr.jpg",
+			"insidePage": "./pdr-inside.jpg",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Lift'n Store",
+		"slug": "/liftnstore/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom design', 'SCSS','sales site', 'Wordpress', 'Custom Theme']",
+		"images": {
+			"square": "./liftnstore-square.jpg",
+			"frontPage": "./liftnstore.jpg",
+			"insidePage": "./liftnstore-inside.jpg",
+			"mobile": "./liftnstore-mobile.jpg"
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "MNAPT",
+		"slug": "/mnapt/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom design', 'SCSS','non-profit', 'Wordpress', 'Custom Theme']",
+		"images": {
+			"square": "./mnapt-square.jpg",
+			"frontPage": "./mnapt.jpg",
+			"insidePage": "./mnapt-inside.jpg",
+			"mobile": "./mnapt-mobile.jpg"
+		},
+		"hasSite": "true"
+	},
+	{
+		"name": "The Gathering Church",
+		"slug": "/thegathering/",
+		"type": "Website Design",
+		"description": "README.md",
+		"tags": "[ 'custom design', 'church', 'splash']",
+		"images": {
+			"square": "./gathering-square.jpg",
+			"frontPage": "./gathering.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	},
+	{
+		"name": "Fox Hollow GC",
+		"slug": "/foxhollow/",
+		"type": "Website Design/Dev",
+		"description": "README.md",
+		"tags": "['responsive','custom design', 'SCSS','golf course', 'Wordpress', 'Custom Theme']",
+		"images": {
+			"square": "./foxhollow-square.jpg",
+			"frontPage": "./foxhollow.jpg",
+			"insidePage": "",
+			"mobile": ""
+		},
+		"hasSite": "false"
+	}
 ]
