@@ -6,10 +6,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom theme', 'SCSS', 'Wordpress','concrete' ]",
 		"images": {
-			"square": "./staincrete-square.jpg",
-			"frontPage": "./staincrete.jpg",
-			"insidePage": "./staincrete-showcase.jpg",
-			"mobile": "./staincrete-mobile.jpg"
+			"square": "./images/staincrete-square.jpg",
+			"frontPage": "./images/staincrete.jpg",
+			"insidePage": "./images/staincrete-showcase.jpg",
+			"mobile": "./images/staincrete-mobile.jpg"
 		},
 		"hasSite": "true"
 	},
@@ -20,10 +20,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom theme', 'SCSS', 'Wordpress', 'manufacturing']",
 		"images": {
-			"square": "./arrow-square.jpg",
-			"frontPage": "./arrow.jpg",
-			"insidePage": "./arrow-inside.jpg",
-			"mobile": "./arrow-mobile.jpg"
+			"square": "./images/arrow-square.jpg",
+			"frontPage": "./images/arrow.jpg",
+			"insidePage": "./images/arrow-inside.jpg",
+			"mobile": "./images/arrow-mobile.jpg"
 		},
 		"hasSite": "true"
 	},
@@ -34,8 +34,8 @@
 		"description": "README.md",
 		"tags": "['static','custom design', 'built 2010', 'restuarant']",
 		"images": {
-			"square": "./sweetbasil-square.jpg",
-			"frontPage": "./sweetbasil.jpg",
+			"square": "./images/sweetbasil-square.jpg",
+			"frontPage": "./images/sweetbasil.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -48,8 +48,8 @@
 		"description": "README.md",
 		"tags": "['Responsive','Custom Design', 'SCSS', 'Wordpress', 'concrete']",
 		"images": {
-			"square": "./aggregate2016-square.jpg",
-			"frontPage": "./aggregate2016.jpg",
+			"square": "./images/aggregate2016-square.jpg",
+			"frontPage": "./images/aggregate2016.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -62,10 +62,10 @@
 		"description": "README.md",
 		"tags": "['Responsive','Custom Design', 'SCSS', 'Wordpress', 'concrete']",
 		"images": {
-			"square": "./aggregate2012-square.jpg",
-			"frontPage": "./aggregate2012.jpg",
+			"square": "./images/aggregate2012-square.jpg",
+			"frontPage": "./images/aggregate2012.jpg",
 			"insidePage": "",
-			"mobile": "./aggregate2012-mobile.jpg"
+			"mobile": "./images/aggregate2012-mobile.jpg"
 		},
 		"hasSite": "false"
 	},
@@ -76,8 +76,8 @@
 		"description": "README.md",
 		"tags": "['custom design', 'splash', 'band']",
 		"images": {
-			"square": "./boysinthebarrel-square.jpg",
-			"frontPage": "./boysinthebarrel.jpg",
+			"square": "./images/boysinthebarrel-square.jpg",
+			"frontPage": "./images/boysinthebarrel.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -90,10 +90,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom design', 'SCSS','restaurant', 'Wordpress', 'Custom Theme']",
 		"images": {
-			"square": "./nightingale-square.jpg",
-			"frontPage": "./nightingale.jpg",
-			"insidePage": "./nightingale-inside.jpg",
-			"mobile": "./nightingale-mobile.jpg"
+			"square": "./images/nightingale-square.jpg",
+			"frontPage": "./images/nightingale.jpg",
+			"insidePage": "./images/nightingale-inside.jpg",
+			"mobile": "./images/nightingale-mobile.jpg"
 		},
 		"hasSite": "true"
 	},
@@ -104,8 +104,8 @@
 		"description": "README.md",
 		"tags": "[ 'custom design', 'catering', 'splash']",
 		"images": {
-			"square": "./chefjeff-square.jpg",
-			"frontPage": "./chefjeff.jpg",
+			"square": "./images/chefjeff-square.jpg",
+			"frontPage": "./images/chefjeff.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -118,9 +118,9 @@
 		"description": "README.md",
 		"tags": "['responsive','concept', 'SCSS','online app', 'Angular']",
 		"images": {
-			"square": "./contractualize-square.jpg",
-			"frontPage": "./contractualize.jpg",
-			"insidePage": "./contractualize-inside.jpg",
+			"square": "./images/contractualize-square.jpg",
+			"frontPage": "./images/contractualize.jpg",
+			"insidePage": "./images/contractualize-inside.jpg",
 			"mobile": ""
 		},
 		"hasSite": "false"
@@ -132,10 +132,10 @@
 		"description": "README.md",
 		"tags": "['responsive','design', 'SCSS', 'development','web', 'custom theme', 'Wordpress']",
 		"images": {
-			"square": "./jrhoades2017-square.jpg",
-			"frontPage": "./jrhoades2017.jpg",
-			"insidePage": "./jrhoades2017-inside.jpg",
-			"mobile": "./jrhoades2017-mobile.jpg"
+			"square": "./images/jrhoades2017-square.jpg",
+			"frontPage": "./images/jrhoades2017.jpg",
+			"insidePage": "./images/jrhoades2017-inside.jpg",
+			"mobile": "./images/jrhoades2017-mobile.jpg"
 		},
 		"hasSite": "false"
 	},
@@ -146,8 +146,8 @@
 		"description": "README.md",
 		"tags": "['responsive','custom theme', 'SCSS','web', 'Wordpress']",
 		"images": {
-			"square": "./jrhoades2012-square.jpg",
-			"frontPage": "./jrhoades2012.jpg",
+			"square": "./images/jrhoades2012-square.jpg",
+			"frontPage": "./images/jrhoades2012.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -160,10 +160,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom design', 'SCSS', 'Wordpress','technology', 'Custom Theme']",
 		"images": {
-			"square": "./igi-square.jpg",
-			"frontPage": "./igi.jpg",
-			"insidePage": "./igi-inside.jpg",
-			"mobile": "./igi-mobile.jpg"
+			"square": "./images/igi-square.jpg",
+			"frontPage": "./images/igi.jpg",
+			"insidePage": "./images/igi-inside.jpg",
+			"mobile": "./images/igi-mobile.jpg"
 		},
 		"hasSite": "true"
 	},
@@ -174,10 +174,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom design', 'SCSS','non-profit', 'Wordpress', 'Custom Theme']",
 		"images": {
-			"square": "./mnapt-square.jpg",
-			"frontPage": "./mnapt.jpg",
-			"insidePage": "./mnapt-inside.jpg",
-			"mobile": "./mnapt-mobile.jpg"
+			"square": "./images/mnapt-square.jpg",
+			"frontPage": "./images/mnapt.jpg",
+			"insidePage": "./images/mnapt-inside.jpg",
+			"mobile": "./images/mnapt-mobile.jpg"
 		},
 		"hasSite": "true"
 	},
@@ -188,8 +188,8 @@
 		"description": "README.md",
 		"tags": "['Retro', 'Custom Design', 'splash', 'pets']",
 		"images": {
-			"square": "./lyndaleanimalhospital-square.jpg",
-			"frontPage": "./lyndaleanimalhospital.jpg",
+			"square": "./images/lyndaleanimalhospital-square.jpg",
+			"frontPage": "./images/lyndaleanimalhospital.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -202,8 +202,8 @@
 		"description": "README.md",
 		"tags": "['custom design', 'splash', 'real estate']",
 		"images": {
-			"square": "./tablerock-square.jpg",
-			"frontPage": "./tablerock.jpg",
+			"square": "./images/tablerock-square.jpg",
+			"frontPage": "./images/tablerock.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -216,9 +216,9 @@
 		"description": "README.md",
 		"tags": "['construction','responsive','custom design', 'SCSS', 'Wordpress', 'Custom Theme']",
 		"images": {
-			"square": "./pdr-square.jpg",
-			"frontPage": "./pdr.jpg",
-			"insidePage": "./pdr-inside.jpg",
+			"square": "./images/pdr-square.jpg",
+			"frontPage": "./images/pdr.jpg",
+			"insidePage": "./images/pdr-inside.jpg",
 			"mobile": ""
 		},
 		"hasSite": "false"
@@ -230,10 +230,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom design', 'SCSS','sales site', 'Wordpress', 'Custom Theme']",
 		"images": {
-			"square": "./liftnstore-square.jpg",
-			"frontPage": "./liftnstore.jpg",
-			"insidePage": "./liftnstore-inside.jpg",
-			"mobile": "./liftnstore-mobile.jpg"
+			"square": "./images/liftnstore-square.jpg",
+			"frontPage": "./images/liftnstore.jpg",
+			"insidePage": "./images/liftnstore-inside.jpg",
+			"mobile": "./images/liftnstore-mobile.jpg"
 		},
 		"hasSite": "false"
 	},
@@ -244,10 +244,10 @@
 		"description": "README.md",
 		"tags": "['responsive','custom design', 'SCSS','non-profit', 'Wordpress', 'Custom Theme']",
 		"images": {
-			"square": "./mnapt-square.jpg",
-			"frontPage": "./mnapt.jpg",
-			"insidePage": "./mnapt-inside.jpg",
-			"mobile": "./mnapt-mobile.jpg"
+			"square": "./images/mnapt-square.jpg",
+			"frontPage": "./images/mnapt.jpg",
+			"insidePage": "./images/mnapt-inside.jpg",
+			"mobile": "./images/mnapt-mobile.jpg"
 		},
 		"hasSite": "true"
 	},
@@ -258,8 +258,8 @@
 		"description": "README.md",
 		"tags": "[ 'custom design', 'church', 'splash']",
 		"images": {
-			"square": "./gathering-square.jpg",
-			"frontPage": "./gathering.jpg",
+			"square": "./images/gathering-square.jpg",
+			"frontPage": "./images/gathering.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},
@@ -272,8 +272,8 @@
 		"description": "README.md",
 		"tags": "['responsive','custom design', 'SCSS','golf course', 'Wordpress', 'Custom Theme']",
 		"images": {
-			"square": "./foxhollow-square.jpg",
-			"frontPage": "./foxhollow.jpg",
+			"square": "./images/foxhollow-square.jpg",
+			"frontPage": "./images/foxhollow.jpg",
 			"insidePage": "",
 			"mobile": ""
 		},

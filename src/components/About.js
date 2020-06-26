@@ -2,8 +2,6 @@ import React from 'react';
 import { FaCloudDownloadAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 import profilePic from '../images/profilepic.jpg';
-const montserratLink =
-	'https://www.google.com/search?q=montserrat+font&oq=montserrat+font&aqs=chrome..69i57j0l6j69i60.3171j0j1&sourceid=chrome&ie=UTF-8';
 
 const About = () => (
 	<section id="about">

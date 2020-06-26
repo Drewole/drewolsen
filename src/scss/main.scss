@@ -414,12 +414,26 @@ ul#nav {
 			position: relative;
 			-webkit-box-shadow: 0px 14px 13px -12px rgba(38, 35, 53, 0.6), 0px 35px 15px 5px rgba(38, 35, 53, 0);
 			box-shadow: 0px 14px 13px -12px rgba(38, 35, 53, 0.6), 0px 35px 15px 5px rgba(38, 35, 53, 0);
-			transition: all 0.3s ease-in-out;
+			transition: all 0.2s ease-in-out;
 			border-radius: 2px;
+
+			&:hover {
+				transform: scale(1.08) rotate(1deg); //TODO Use javascript to add a random number to the rotate https://css-tricks.com/random-numbers-css/
+				-webkit-box-shadow: 0px 14px 13px -8px rgba(38, 35, 53, 0.6), 0px 35px 15px 5px rgba(38, 35, 53, 0);
+				box-shadow: 0px 14px 13px -8px rgba(38, 35, 53, 0.6), 0px 35px 15px 5px rgba(38, 35, 53, 0);
+				margin-top: -4px;
+				padding-bottom: 4px;
+				z-index: 20;
+
+				img {
+					filter: blur(2px);
+				}
+			}
 
 			img {
 				margin-bottom: 0;
 				vertical-align: bottom;
+				transition: all 0.3s ease-in-out;
 			}
 
 			a {
@@ -437,12 +451,10 @@ ul#nav {
 				-moz-opacity: 0;
 				filter: alpha(opacity=0);
 
-				-webkit-transition: opacity 0.3s ease-in-out;
-				-moz-transition: opacity 0.3s ease-in-out;
-				-o-transition: opacity 0.3s ease-in-out;
-				transition: opacity 0.3s ease-in-out;
+				-webkit-transition: opacity 0.2s ease-in-out;
+				transition: opacity 0.2s ease-in-out;
 
-				background: rgba(darken($purple, 8%), 0.8);
+				background: rgba(darken($coral, 12%), 0.85);
 			}
 			.link-icon {
 				display: block;
@@ -458,8 +470,6 @@ ul#nav {
 				filter: alpha(opacity=0);
 
 				-webkit-transition: opacity 0.3s ease-in-out;
-				-moz-transition: opacity 0.3s ease-in-out;
-				-o-transition: opacity 0.3s ease-in-out;
 				transition: opacity 0.3s ease-in-out;
 
 				position: absolute;
