@@ -1,0 +1,488 @@
+@charset "UTF-8";
+/*
+Document Created by Drew Olsen
+www.drewolsendesign.com
+
+Colors:
+
+Dark Yellow: #ae9207
+Light Yellow: #fce25f
+Rust Orange: #b17b31
+Green: #8A954F
+Med Grey: #707070
+
+*/
+
+/* -------- Utility Styles Begin Here -------- */
+a:link {
+color: #98954e;
+text-decoration: none;}
+
+a:visited {
+color: #7f7c40;
+text-decoration: none;}
+
+a:hover {
+color: #b17b31;
+border-bottom: 1px solid white;}
+
+h3 {
+font-size: 22pt;
+color: #fce25f;
+margin: 40px 0 0 0;
+text-shadow: 0 4px 2px #111;}
+
+h4 {
+font-size: 11pt;
+color: white;
+margin: 0 0 30px 15px;}
+
+h5 {
+font-size: 9pt;
+color: #8A954F;}
+
+p {
+color: white;
+font-size: 11pt;
+line-height: 20pt;
+margin: 0 0 20px 0;}
+
+.transparentHover:hover {
+-khtml-opacity: 0.90;
+opacity: 0.60;}
+
+.clear {
+clear: both}
+
+.floatLeft {
+float: left}
+
+.floatRight {
+float: right}
+
+.bold {
+font-weight: bold;}
+
+.marginBottom20 {
+margin-bottom: 20px;}
+
+.button, .button:visited {
+display: block;
+text-align: center;
+width: 150px;
+padding: 5px 15px;
+background: white;
+color: #ae9207;
+font-size: 13pt;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+margin: 70px 0 0 0;}
+
+.button:hover {
+background: #333;
+color: #fce25f;
+border-bottom: none;}
+
+body {
+text-align: center;
+background: black;
+font-family: "Century Gothic","Helvetica Neue",Helvetica,sans-serif;
+font-weight: lighter;}
+
+h1.subHeading {
+color: #8A954F;
+margin: 0 0 15px 0;}
+
+#menu-page span.smallGrey {
+color: #888;
+font-size: 10pt;}
+
+/* -------- Layout Styles Begin Here --------- */
+#bodyPictureBkg {
+height: 929px;
+background: url("../assets/images/bodyBkg.jpg") no-repeat scroll center 0;
+margin: 0 auto;}
+
+
+#container {
+width: 960px;
+position: relative;
+margin: 0px auto;
+text-align: left;}
+
+#header {
+height: 256px;
+width: 960px;
+float: left;}
+
+#mainContent {
+float: left;
+padding: 20px 0 0 0;
+clear: both;
+min-height: 600px;
+width: 960px;}
+
+#footerBkg {
+background: url("../assets/images/footerBkg.jpg") no-repeat center;
+height: 486px;
+clear: both;
+margin: 0 auto;}
+
+#footer {
+width: 960px;
+margin: 0 auto;}
+
+
+/* -------- Header Styles Begin Here --------- */
+h1 a{
+display: block;
+width: 424px;
+height: 248px;
+float: left;
+position: relative;
+text-indent: -9999em;
+background: url("../assets/images/sweetBasilLogo.jpg") no-repeat;}
+
+h1 a:hover {
+border-bottom: none;}
+
+
+/* -------- Navigation Styles Begin Here -------- */
+
+#navigation {
+width:480px;
+height:102px;
+float: right;
+margin: 154px 0 0 0;}
+
+#navigation ul {
+list-style: none;
+background: url("../assets/images/basilNavigation.jpg") left top no-repeat;
+width:480px;
+height:101px;}
+
+#navigation li, #navigation a {
+height: 101px;
+display: block;}
+
+#navigation ul li {
+float: left;
+position: relative;
+text-indent: -9999em;}
+
+#navigation #home a {
+width:112px;}
+
+#navigation #lunch a {
+width:85px;}
+
+#navigation #menu a {
+width:85px;}
+
+#navigation #classes a {
+width:198px;}
+
+#navigation a:hover {
+border: none;}
+
+#navigation #home a:hover {background:url("../assets/images/basilNavigation.jpg") left -101px no-repeat;}
+#navigation #lunch a:hover {background:url("../assets/images/basilNavigation.jpg") -112px -101px no-repeat; }
+#navigation #menu a:hover {background:url("../assets/images/basilNavigation.jpg") -197px -101px no-repeat; }
+#navigation #classes a:hover {background:url("../assets/images/basilNavigation.jpg") -282px -101px no-repeat; }
+	
+/* -------- MainContent Styles Begin Here ---- */
+
+#classes-page #mainContent img, #menu-page #mainContent img {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 4px solid #8e9b46;}
+
+/*Homepage- Specific Styles Start Here*/
+
+#pictureShowBkg {
+width: 461px;
+height: 600px;
+background: url("../assets/images/slideShowBkg.png") no-repeat;
+float: right;
+padding: 10px 0 0 12px;}
+
+#home-page #welcome h2 {
+display: block;
+background: url("../assets/images/sweetBasilWelcomeH2.png") no-repeat;
+height:45px;
+width: 465px;
+position: relative;
+text-indent: -9999em;
+margin: 0px 0 0 -8px;}
+
+
+
+#home-page #currentNews h2 {
+display: block;
+background: url("../assets/images/sweetBasilLatestH2.png") no-repeat;
+height:45px;
+width: 293px;
+position: relative;
+text-indent: -9999em;
+margin: 20px 0 0 -4px;}
+
+#pictureNav {
+padding: 0 0 1px 0;
+height: 225px;}
+
+#pictureNav a * {
+display: none;}
+
+#pictureNav ul {
+list-style: none;}
+
+#pictureNav li {
+position: relative;
+text-indent: -1000em;
+float: left;}
+
+#pictureNav a,
+#pictureNav a .hover {
+height: 226px;
+position: relative;
+display: block;
+background: url("../assets/images/midNavigation.png") 0 0 no-repeat;
+border-bottom: none;}
+
+#pictureNav a .hover {
+margin: -21px 0 0 0;}
+
+#pictureNav a.menuPicture {
+background-position: 0 -226px;
+width: 240px;}
+
+#pictureNav .highlight a.menuPicture:hover,
+#pictureNav a.menuPicture .hover {
+background-position: 0 0;
+width: 240px;}
+
+#pictureNav a.classesPicture {
+background-position: -240px -226px;
+width: 240px;}
+
+#pictureNav .highlight a.classesPicture:hover,
+#pictureNav a.classesPicture .hover {
+background-position: -240px 0;}
+
+/*Lunch Page Styles Begin Here*/
+
+#lunch-page #mainContent h2 {
+height: 45px;
+width: 520px;
+display: block;
+background: url("../assets/images/sweetBasilLunchH2.png") no-repeat;
+position: relative;
+text-indent: -9999em;}
+
+#contact-page #mainContent h2 {
+height: 45px;
+width: 228px;
+display: block;
+background: url("../assets/images/sweetBasilContactH2.png") no-repeat;
+position: relative;
+text-indent: -9999em;
+margin:0 0 10px -11px;}
+
+#lunch-page #mainContent h4 {
+margin: 0 0 15px 17px;}
+
+#mainContent p.call {
+width: 300px;
+float: right;
+font-size: 13pt;
+color: #ae9207;
+text-align: center;}
+
+#mainContent p.call span.largePhoneNumber {
+color: white;
+font-size: 17pt;}
+
+#mainContent p span {
+color: #fce25f;}
+
+#mainContent p span.largeNumber {
+color: #888888;
+font-size: 28pt;
+display: block;
+float: left;
+margin: 0 5px 0 0;}
+
+#lunch-page h5 {
+font-size: 12pt;
+color:#fce25f;
+margin: 0 0 10px 17px; }
+
+#lunch-page #mainContent ul {
+color:#8A954F;
+font-size: 11pt;
+margin: 0 0 40px 15px; }
+
+/*Menu Page Styles Begin Here*/
+
+#menu-page #menuContainer {
+width: 660px;}
+
+#menu-page #mainContent img {
+float: right;
+margin: 10px 0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+box-shadow: 0 5px 8px #111;}
+
+#menu-page #mainContent #menuContainer p.call {
+margin: 40px 0 0 0;}
+
+#menu-page #mainContent div.rightSide {
+width: 300px;
+float: right;
+margin: 15px 0 0 0;}
+
+#mainContent #clickToJump {
+color: #999;
+float: left;
+margin: 0 0 10px 200px;}
+
+#menu-page #mainContent h2 {
+background: url("../assets/images/sweetBasilMenuH2.png") no-repeat;
+display: block;
+width: 362px;
+height: 45px;
+position: relative;
+text-indent: -9999em;
+margin: 0 0 20px -8px;}
+
+#mainContent ul#menuNav li {
+display: inline;
+margin: 0 8px 8px 0;
+float: left;}
+
+#mainContent ul#menuNav li a:link,
+#mainContent ul#menuNav li a:visited {
+display: block;
+padding: 3px 5px;
+background: white;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #ae9207;
+font-size: 10pt;
+border-radius: 5px;
+box-shadow: 0 3px 4px #111; }
+
+#mainContent ul#menuNav li a:hover {
+color: #fce25f;
+border: none;
+background: #333;}
+
+#menu-page h3#apps {
+margin-bottom: 25px;
+clear: left;}
+
+#menu-page h5 {
+color:#ae9207;
+font-size: 15pt; }
+
+#menu-page p span {
+color: #8A954F;}
+
+ul.meats {
+color: #ae9207;
+margin: 10px 0 20px 0;
+font-size: 11pt;}
+
+ul.meats li {
+display: inline;
+padding: 0 20px 0 0;}
+
+#menu-page #mainContent h4 {
+margin: 0 0 10px 0;}
+
+/*Cooking Classes Page Styles Begin Here*/
+
+#classes-page #mainContent h2 {
+background: url("../assets/images/sweetBasilClassh2.png") no-repeat;
+display: block;
+width: 496px;
+height: 46px;
+position: relative;
+text-indent: -9999em;
+margin: 15px 0 3px 0;}
+
+#classes-page #mainContent h4 {
+color: #b17b31;
+font-size: 14pt;
+margin: 5px 0 0 0;}
+
+#classes-page #mainContent h5 {
+color: white;
+font-size: 12pt;
+margin: 0 0 20px 0;}
+
+#classes-page #classesContainer img {
+border: 4px solid #8e9b46;
+margin: 0 0 15px 0;}
+
+#menu-page #classesContainer {
+width: 548px;}
+
+#classes-page #mainContent .rightSide img {
+float: right;
+margin: 10px 0;}
+
+#classes-page #mainContent div.rightSide {
+width: 412px;
+float: right;
+margin: 15px 0 0 0;}
+
+#classes-page #mainContent #classesContainer p.call {
+text-align: center;
+float: none;
+margin: 15px 0 0 0;}
+
+#classes-page ol {
+color: #b17b31;
+line-height: 16pt;
+font-size: 12pt;
+list-style: decimal;
+margin: 5px 0 50px 30px; }
+
+/* -------- Footer Styles Begin Here --------- */
+
+#classes-page #mainContent img {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+box-shadow: 0 5px 8px #111;}
+
+#footer a:link, #footer a:visited {
+color: #444444;}
+
+#footer a:hover {
+color: #b17b31;}
+
+#footer p {
+color: #363636;
+font-size: 9pt;}
+
+#footer p.copyRight {
+float: left;
+width: 400px;
+margin: 5px 0 0 20px;
+text-align: left;}
+
+#footer p.credits {
+float: right;
+width: 400px;
+margin: 5px 20px 0 0;
+text-align: right;}
+
+#footer p.address {
+padding: 165px 0 0 0;
+color: #666666;}
+
+/* -------- Post-Footer Styles Begin Here ---- */
