@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPlus, FaTag } from 'react-icons/fa';
+import { FaPlus, FaTag, FaTimes } from 'react-icons/fa';
 
 import Coffee from '../images/portfolio/mnapt-square.jpg';
 import Arrow from '../images/portfolio/arrow-square.jpg';
@@ -108,6 +108,9 @@ const Portfolio = () => (
 					Close
 				</a>
 			</div>
+			<a href="#portfolio" className="popup-modal-close">
+				<FaTimes />
+			</a>
 		</div>
 
 		<div id="modal-02" className="popup-modal mfp-hide">
@@ -131,6 +134,9 @@ const Portfolio = () => (
 					Close
 				</a>
 			</div>
+			<a href="#portfolio" className="popup-modal-close">
+				<FaTimes />
+			</a>
 		</div>
 
 		<div id="modal-03" className="popup-modal mfp-hide">
@@ -154,6 +160,9 @@ const Portfolio = () => (
 					Close
 				</a>
 			</div>
+			<a href="#portfolio" className="popup-modal-close">
+				<FaTimes />
+			</a>
 		</div>
 
 		<div id="modal-04" className="popup-modal mfp-hide">
@@ -177,6 +186,9 @@ const Portfolio = () => (
 					Close
 				</a>
 			</div>
+			<a href="#portfolio" className="popup-modal-close">
+				<FaTimes />
+			</a>
 		</div>
 	</section>
 );

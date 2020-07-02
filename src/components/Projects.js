@@ -1,52 +1,17 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react';
 
-import ProjectPreview from "./ProjectPreview"
+import Project from './Project';
 
-const Projects = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allProjectsJson {
-        edges {
-          node {
-            type
-            tags
-            slug
-            name
-            id
-            hasSite
-            description
-            images {
-              frontPage {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              square {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
-  const projects = data.allProjectsJson.edges
-  {
-    projects.map(({ node: project }) => {
-      const title = project.name
-      const slug = project.slug
-      const type = project.type
-      const description = project.description
-      const tags = project.tags
-      const squareImg = project.image.square.childImageSharp.fluid
-      const frontImg = project.frontPage.square.childImageSharp.fluid
-    })
-  }
-}
+const Projects = () => (
+	<section id="portfolio">
+		<div className="row">
+			<div className="twelve columns collapsed">
+				<h1>Some of My Work.</h1>
+				<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+					<Project />
+				</div>
+			</div>
+		</div>
+	</section>
+);
+export default Projects;

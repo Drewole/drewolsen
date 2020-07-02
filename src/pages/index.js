@@ -1,25 +1,25 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
+import Layout from "../layouts/Layout"
 import Header from "../components/Header"
 import About from "../components/About"
-// import Resume from '../components/Resume';
 import Portfolio from "../components/Portfolio"
-// import Testimonials from '../components/Testimonials';
-import Footer from "../components/Footer"
-import TemplateWrapper from "../layouts/TemplateWrapper"
 import Projects from "../components/Projects"
+import Footer from "../components/Footer"
+// import Resume from '../components/Resume';
+// import Testimonials from '../components/Testimonials';
 
 const IndexPage = () => {
   return (
-    <TemplateWrapper>
+    <Layout>
       <Header />
       <About />
       {/* <Resume /> */}
       <Portfolio />
       {/* <Testimonials /> */}
+      <Projects />
       <Footer />
-    </TemplateWrapper>
+    </Layout>
   )
 }
 
