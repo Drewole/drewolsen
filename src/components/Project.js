@@ -1,60 +1,56 @@
-import React from 'react';
-import { FaPlus, FaTag } from 'react-icons/fa';
-import { useStaticQuery, graphql } from 'gatsby';
-import { Link } from 'gatsby';
+import React from "react"
+import { FaPlus, FaTag, FaTimes } from "react-icons/fa"
+import { Link } from "gatsby"
+import Image from "gatsby-image"
 
-const Project = () => {
-	const data = useStaticQuery(graphql`
-		{
-			allProjectsJson {
-				edges {
-					node {
-						type
-						tags
-						slug
-						name
-						id
-						hasSite
-						description
-						images {
-							frontPage {
-								childImageSharp {
-									fluid {
-										...GatsbyImageSharpFluid
-									}
-								}
-							}
-							square {
-								childImageSharp {
-									fluid {
-										...GatsbyImageSharpFluid
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
-	return (
-		<div className="columns portfolio-item">
-			<div className="item-wrap">
-				<a href="#modal-01" title="">
-					<img alt="" src="" />
-					<div className="overlay">
-						<div className="portfolio-item-meta">
-							<h5>MNAPT</h5>
-							<p>Web Design, Web Development</p>
-						</div>
-					</div>
-					<div className="link-icon">
-						<FaPlus />
-					</div>
-				</a>
-			</div>
-		</div>
-	);
-};
+const Project = ({
+  imgSquare,
+  description,
+  frontImg,
+  title,
+  slug,
+  tags,
+  type,
+}) => (
+  <div className="project">
+    <div className="columns portfolio-item">
+      <div className="item-wrap">
+        <a href="#modal-01">
+          <Image fluid={imgSquare} alt={title} />
+          <div className="overlay">
+            <div className="portfolio-item-meta">
+              <h5>{title}</h5>
+              <Link to={`/projects/${slug}`}>
+                <p>{type}</p>
+              </Link>
+            </div>
+          </div>
+          <div className="link-icon">
+            <FaPlus />
+          </div>
+        </a>
+      </div>
+    </div>
+    <div id="modal-01" className="popup-modal mfp-hide">
+      <div className="description-box">
+        <h4>{title}</h4>
+        <p>{description}</p>
+        <span className="categories">
+          <FaTag /> {tags}
+        </span>
+      </div>
 
-export default Project;
+      <div className="link-box">
+        <a href={`./projects/${slug}`}>View Site</a>
+        <a href="#portfolio" className="popup-modal-dismiss">
+          Close
+        </a>
+      </div>
+      <a href="#portfolio" className="popup-modal-close">
+        <FaTimes />
+      </a>
+    </div>
+  </div>
+)
+
+export default Project

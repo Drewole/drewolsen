@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from "react-helmet"
 import { siteMetadata } from "../../gatsby-config"
 import "../scss/main.scss"
-import "../js/main.js"
 
 const Layout = ({ children }) => (
   <React.Fragment>

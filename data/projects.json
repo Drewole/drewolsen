@@ -5,12 +5,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom theme', 'SCSS', 'Wordpress','concrete' ]",
-    "images": {
-      "square": "./images/staincrete-square.jpg",
-      "frontPage": "./images/staincrete.jpg",
-      "insidePage": "./images/staincrete-showcase.jpg",
-      "mobile": "./images/staincrete-mobile.jpg"
-    },
+    "squareImg": "./images/staincrete-square.jpg",
+    "frontImg": "./images/staincrete.jpg",
+    "insideImg": "./images/staincrete-showcase.jpg",
+    "mobileImg": "./images/staincrete-mobile.jpg",
     "hasSite": "true"
   },
   {
@@ -19,12 +17,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom theme', 'SCSS', 'Wordpress', 'manufacturing']",
-    "images": {
-      "square": "./images/arrow-square.jpg",
-      "frontPage": "./images/arrow.jpg",
-      "insidePage": "./images/arrow-inside.jpg",
-      "mobile": "./images/arrow-mobile.jpg"
-    },
+    "squareImg": "./images/arrow-square.jpg",
+    "frontImg": "./images/arrow.jpg",
+    "insideImg": "./images/arrow-inside.jpg",
+    "mobileImg": "./images/arrow-mobile.jpg",
     "hasSite": "true"
   },
   {
@@ -33,12 +29,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['static','custom design', 'built 2010', 'restuarant']",
-    "images": {
-      "square": "./images/sweetbasil-square.jpg",
-      "frontPage": "./images/sweetbasil.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/sweetbasil-square.jpg",
+    "frontImg": "./images/sweetbasil.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "true"
   },
   {
@@ -47,12 +41,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['Responsive','Custom Design', 'SCSS', 'Wordpress', 'concrete']",
-    "images": {
-      "square": "./images/aggregate2016-square.jpg",
-      "frontPage": "./images/aggregate2016.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/aggregate2016-square.jpg",
+    "frontImg": "./images/aggregate2016.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -61,12 +53,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['Responsive','Custom Design', 'SCSS', 'Wordpress', 'concrete']",
-    "images": {
-      "square": "./images/aggregate2012-square.jpg",
-      "frontPage": "./images/aggregate2012.jpg",
-      "insidePage": "",
-      "mobile": "./images/aggregate2012-mobile.jpg"
-    },
+    "squareImg": "./images/aggregate2012-square.jpg",
+    "frontImg": "./images/aggregate2012.jpg",
+    "insideImg": "",
+    "mobileImg": "./images/aggregate2012-mobile.jpg",
     "hasSite": "false"
   },
   {
@@ -75,12 +65,10 @@
     "type": "Website Design",
     "description": "README.md",
     "tags": "['custom design', 'splash', 'band']",
-    "images": {
-      "square": "./images/boysinthebarrel-square.jpg",
-      "frontPage": "./images/boysinthebarrel.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/boysinthebarrel-square.jpg",
+    "frontImg": "./images/boysinthebarrel.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -89,12 +77,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom design', 'SCSS','restaurant', 'Wordpress', 'Custom Theme']",
-    "images": {
-      "square": "./images/nightingale-square.jpg",
-      "frontPage": "./images/nightingale.jpg",
-      "insidePage": "./images/nightingale-inside.jpg",
-      "mobile": "./images/nightingale-mobile.jpg"
-    },
+    "squareImg": "./images/nightingale-square.jpg",
+    "frontImg": "./images/nightingale.jpg",
+    "insideImg": "./images/nightingale-inside.jpg",
+    "mobileImg": "./images/nightingale-mobile.jpg",
     "hasSite": "true"
   },
   {
@@ -103,12 +89,10 @@
     "type": "Website Design",
     "description": "README.md",
     "tags": "[ 'custom design', 'catering', 'splash']",
-    "images": {
-      "square": "./images/chefjeff-square.jpg",
-      "frontPage": "./images/chefjeff.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/chefjeff-square.jpg",
+    "frontImg": "./images/chefjeff.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -117,12 +101,10 @@
     "type": "Website Concept",
     "description": "README.md",
     "tags": "['responsive','concept', 'SCSS','online app', 'Angular']",
-    "images": {
-      "square": "./images/contractualize-square.jpg",
-      "frontPage": "./images/contractualize.jpg",
-      "insidePage": "./images/contractualize-inside.jpg",
-      "mobile": ""
-    },
+    "squareImg": "./images/contractualize-square.jpg",
+    "frontImg": "./images/contractualize.jpg",
+    "insideImg": "./images/contractualize-inside.jpg",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -131,12 +113,10 @@
     "type": "Website Design/Dev",
     "description": "README.md",
     "tags": "['responsive','design', 'SCSS', 'development','web', 'custom theme', 'Wordpress']",
-    "images": {
-      "square": "./images/jrhoades2017-square.jpg",
-      "frontPage": "./images/jrhoades2017.jpg",
-      "insidePage": "./images/jrhoades2017-inside.jpg",
-      "mobile": "./images/jrhoades2017-mobile.jpg"
-    },
+    "squareImg": "./images/jrhoades2017-square.jpg",
+    "frontImg": "./images/jrhoades2017.jpg",
+    "insideImg": "./images/jrhoades2017-inside.jpg",
+    "mobileImg": "./images/jrhoades2017-mobile.jpg",
     "hasSite": "false"
   },
   {
@@ -145,12 +125,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom theme', 'SCSS','web', 'Wordpress']",
-    "images": {
-      "square": "./images/jrhoades2012-square.jpg",
-      "frontPage": "./images/jrhoades2012.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/jrhoades2012-square.jpg",
+    "frontImg": "./images/jrhoades2012.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -159,12 +137,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom design', 'SCSS', 'Wordpress','technology', 'Custom Theme']",
-    "images": {
-      "square": "./images/igi-square.jpg",
-      "frontPage": "./images/igi.jpg",
-      "insidePage": "./images/igi-inside.jpg",
-      "mobile": "./images/igi-mobile.jpg"
-    },
+    "squareImg": "./images/igi-square.jpg",
+    "frontImg": "./images/igi.jpg",
+    "insideImg": "./images/igi-inside.jpg",
+    "mobileImg": "./images/igi-mobile.jpg",
     "hasSite": "true"
   },
   {
@@ -173,12 +149,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom design', 'SCSS','non-profit', 'Wordpress', 'Custom Theme']",
-    "images": {
-      "square": "./images/mnapt-square.jpg",
-      "frontPage": "./images/mnapt.jpg",
-      "insidePage": "./images/mnapt-inside.jpg",
-      "mobile": "./images/mnapt-mobile.jpg"
-    },
+    "squareImg": "./images/mnapt-square.jpg",
+    "frontImg": "./images/mnapt.jpg",
+    "insideImg": "./images/mnapt-inside.jpg",
+    "mobileImg": "./images/mnapt-mobile.jpg",
     "hasSite": "true"
   },
   {
@@ -187,12 +161,10 @@
     "type": "Website Design",
     "description": "README.md",
     "tags": "['Retro', 'Custom Design', 'splash', 'pets']",
-    "images": {
-      "square": "./images/lyndaleanimalhospital-square.jpg",
-      "frontPage": "./images/lyndaleanimalhospital.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/lyndaleanimalhospital-square.jpg",
+    "frontImg": "./images/lyndaleanimalhospital.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "true"
   },
   {
@@ -201,12 +173,10 @@
     "type": "Website Design",
     "description": "README.md",
     "tags": "['custom design', 'splash', 'real estate']",
-    "images": {
-      "square": "./images/tablerock-square.jpg",
-      "frontPage": "./images/tablerock.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/tablerock-square.jpg",
+    "frontImg": "./images/tablerock.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -215,12 +185,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['construction','responsive','custom design', 'SCSS', 'Wordpress', 'Custom Theme']",
-    "images": {
-      "square": "./images/pdr-square.jpg",
-      "frontPage": "./images/pdr.jpg",
-      "insidePage": "./images/pdr-inside.jpg",
-      "mobile": ""
-    },
+    "squareImg": "./images/pdr-square.jpg",
+    "frontImg": "./images/pdr.jpg",
+    "insideImg": "./images/pdr-inside.jpg",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -229,12 +197,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom design', 'SCSS','sales site', 'Wordpress', 'Custom Theme']",
-    "images": {
-      "square": "./images/liftnstore-square.jpg",
-      "frontPage": "./images/liftnstore.jpg",
-      "insidePage": "./images/liftnstore-inside.jpg",
-      "mobile": "./images/liftnstore-mobile.jpg"
-    },
+    "squareImg": "./images/liftnstore-square.jpg",
+    "frontImg": "./images/liftnstore.jpg",
+    "insideImg": "./images/liftnstore-inside.jpg",
+    "mobileImg": "./images/liftnstore-mobile.jpg",
     "hasSite": "false"
   },
   {
@@ -243,12 +209,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom design', 'SCSS','non-profit', 'Wordpress', 'Custom Theme']",
-    "images": {
-      "square": "./images/mnapt-square.jpg",
-      "frontPage": "./images/mnapt.jpg",
-      "insidePage": "./images/mnapt-inside.jpg",
-      "mobile": "./images/mnapt-mobile.jpg"
-    },
+    "squareImg": "./images/mnapt-square.jpg",
+    "frontImg": "./images/mnapt.jpg",
+    "insideImg": "./images/mnapt-inside.jpg",
+    "mobileImg": "./images/mnapt-mobile.jpg",
     "hasSite": "true"
   },
   {
@@ -257,12 +221,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "[ 'custom design', 'church', 'splash']",
-    "images": {
-      "square": "./images/gathering-square.jpg",
-      "frontPage": "./images/gathering.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/gathering-square.jpg",
+    "frontImg": "./images/gathering.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   },
   {
@@ -271,12 +233,10 @@
     "type": "Website Design & Development",
     "description": "README.md",
     "tags": "['responsive','custom design', 'SCSS','golf course', 'Wordpress', 'Custom Theme']",
-    "images": {
-      "square": "./images/foxhollow-square.jpg",
-      "frontPage": "./images/foxhollow.jpg",
-      "insidePage": "",
-      "mobile": ""
-    },
+    "squareImg": "./images/foxhollow-square.jpg",
+    "frontImg": "./images/foxhollow.jpg",
+    "insideImg": "",
+    "mobileImg": "",
     "hasSite": "false"
   }
 ]
