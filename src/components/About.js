@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaCloudDownloadAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
+import { MdDescription } from 'react-icons/md';
 
 import profilePic from '../images/profilepic.jpg';
 
@@ -55,7 +56,7 @@ const About = () => (
 						<p>
 							<a href="/downloads/DrewOlsenResume.pdf" className="button">
 								<span>
-									<FaCloudDownloadAlt />
+									<MdDescription />
 								</span>
 								Download Resume
 							</a>

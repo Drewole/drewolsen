@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdCardTravel } from 'react-icons/md';
 
 import SocialLinks from './SocialLinks';
 
@@ -11,7 +12,10 @@ const Banner = () => (
 				elegant, user-friendly solutions.
 				<br />
 				<a className="smoothscroll" href="#portfolio">
-					View My Portfolio <span>&#x21C9;</span>
+					View My Portfolio{' '}
+					<span>
+						<MdCardTravel />
+					</span>
 				</a>
 			</h3>
 			<hr />
