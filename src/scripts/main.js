@@ -1,5 +1,8 @@
 //Adds the background to the navigation bar on scroll
-window.addEventListener('scroll', addNavBkg);
+// Wrap the require in check for window
+if (typeof window !== `undefined`) {
+	window.addEventListener('scroll', addNavBkg);
+}
 
 function addNavBkg(ev) {
 	const navBar = document.getElementById('nav-wrap');
