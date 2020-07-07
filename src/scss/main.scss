@@ -35,6 +35,8 @@ $outside-link: $aqua;
 body {
 	background: #0f0f0f;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 a span {
 	padding-right: 3px;
@@ -91,7 +93,7 @@ a span {
 
 header {
 	position: relative;
-	height: 800px;
+	height: 730px;
 	width: 100%;
 	background: $purple url(../images/pineTreesBkg.jpg) no-repeat top center;
 	background-size: cover !important;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaPlus, FaTag, FaTimes } from 'react-icons/fa';
-import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 
 const Project = ({ rotate, squareImg, description, frontImg, hasSite, title, slug, tags, type }) => (
