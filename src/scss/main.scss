@@ -65,17 +65,12 @@ a span {
 	color: white;
 	background: rgba($aqua, 0.7);
 }
-.github {
-	font-size: 28px;
-	svg {
-		transition: all 0.3s ease-in-out;
-	}
-}
+.github,
 .twitter,
 .instagram {
 	font-size: 32px;
 	svg {
-		transition: all 0.3s ease-in-out;
+		transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	}
 }
 .github svg:hover {
@@ -214,13 +209,13 @@ header {
 		position: absolute;
 		bottom: 60px;
 		left: 50%;
-		margin-left: -21px;
+		margin-left: -18px;
 		color: #fff;
 		display: block;
-		height: 42px;
-		width: 42px;
-		font-size: 42px;
-		line-height: 42px;
+		height: 36px;
+		width: 36px;
+		font-size: 36px;
+		line-height: 36px;
 		color: #fff;
 		border-radius: 100%;
 
@@ -230,8 +225,19 @@ header {
 		transition: all 0.3s ease-in-out;
 
 		&:hover {
-			color: #c15553;
+			color: $brightCoral;
+			transform: scale(1.2);
 		}
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	/* header styles
+ ------------------------------------------------------------------ */
+	header .banner-text h1 {
+		font: 80px/1.1em "montserrat-bold", sans-serif;
+		letter-spacing: -1px;
+		margin: 0 auto 12px auto;
 	}
 }
 
@@ -676,6 +682,7 @@ footer {
 	text-align: center;
 	position: relative;
 	border-bottom: 8px solid darken($mutedCoral, 10%);
+	border-top: 4px solid lighten($aqua, 10%);
 }
 
 footer a,
@@ -735,27 +742,22 @@ footer .social li:first-child {
 /* Go To Top Button */
 #go-top {
 	position: absolute;
-	top: -18px;
+	top: -22px;
 	left: 50%;
-	margin-left: -23px;
+	margin-left: -19px;
 
 	a {
-		text-decoration: none;
-		border: 0 none;
-		display: block;
-		width: 46px;
-		height: 40px;
-		background-color: $coral;
-
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		background-color: lighten($aqua, 10%);
 		transition: all 0.2s ease-in-out;
 
 		color: #fff;
-		font-size: 32px;
-		line-height: 48px;
+		font-size: 26px;
+		line-height: 32px;
 		border-radius: 100%;
 
 		svg {
@@ -764,21 +766,9 @@ footer .social li:first-child {
 
 		&:hover {
 			& svg {
-				fill: darken($mutedCoral, 10%);
+				fill: $purple;
 			}
 		}
-	}
-}
-
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
-	/* header styles
- ------------------------------------------------------------------ */
-	header .banner-text h1 {
-		font: 80px/1.1em "montserrat-bold", sans-serif;
-		letter-spacing: -1px;
-		margin: 0 auto 12px auto;
 	}
 }
 
@@ -1078,17 +1068,6 @@ footer .social li:first-child {
 				padding: 5px;
 			}
 		}
-	}
-
-	/* Go To Top Button */
-	#go-top {
-		margin-left: -22px;
-	}
-	#go-top a {
-		width: 44px;
-		height: 44px;
-		font-size: 18px;
-		line-height: 44px;
 	}
 }
 
