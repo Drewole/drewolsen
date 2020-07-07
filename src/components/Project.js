@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPlus, FaTag, FaTimes } from 'react-icons/fa';
 import Image from 'gatsby-image';
 
-const Project = ({ rotate, squareImg, description, frontImg, hasSite, title, slug, tags, type }) => (
+const Project = ({ squareImg, description, frontImg, hasSite, title, slug, tags, type }) => (
 	<div className="project">
 		<div className="columns portfolio-item">
 			<div className="item-wrap">
