@@ -1,35 +1,44 @@
-import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import React from "react"
+import { graphql, StaticQuery } from "gatsby"
+import styled from "styled-components"
 
-import BackgroundImage from 'gatsby-background-image';
+import BackgroundImage from "gatsby-background-image"
 
-const BackgroundSection = () => (
-	<StaticQuery
-		query={graphql`
-			{
-				allFile(filter: { relativePath: { eq: "pineTreesBkg.jpg" } }) {
-					edges {
-						node {
-							childImageSharp {
-								fluid {
-									...GatsbyImageSharpFluid_withWebp
-								}
-							}
-						}
-					}
-				}
-			}
-		`}
-		render={(data) => {
-			// Set ImageData.
-			const imageData = data;
-			return (
-				<BackgroundImage Tag="section" className="headerBkg" fluid={imageData} backgroundColor={`#040e18`}>
-					<h2>gatsby-background-image</h2>
-				</BackgroundImage>
-			);
-		}}
-	/>
-);
+const BackgroundSection = ({ className }) => (
+  <StaticQuery
+    query={graphql`
+      {
+        file(relativePath: { eq: "pineTreesBkg.jpg" }) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 2400) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    `}
+    render={data => {
+      // Set ImageData.
+      const imageData = data.desktop.childImageSharp.fluid
+      return (
+        <BackgroundImage
+          Tag="section"
+          className={className}
+          fluid={imageData}
+          backgroundColor={`#040e18`}
+        >
+          <h2>gatsby-background-image</h2>
+        </BackgroundImage>
+      )
+    }}
+  />
+)
 
-export default BackgroundSection;
+const BannerImage = styled(BackgroundSection)`
+  width: 100%;
+  background-position: bottom center;
+  background-repeat: repeat-y;
+  background-size: cover;
+`
+
+export default BannerImage
