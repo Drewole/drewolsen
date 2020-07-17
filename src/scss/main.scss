@@ -16,9 +16,7 @@ $outside-link: $aqua;
 @import "grid";
 
 /*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
---------------------------------------------------------------------- */
-
+    (http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cf:before,
 .cf:after {
   content: " ";
@@ -28,9 +26,7 @@ $outside-link: $aqua;
   clear: both;
 }
 
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
+/////////// General Styles
 
 body {
   background: #0f0f0f;
@@ -87,9 +83,7 @@ a span {
   color: #6833d3;
   transform: scale(1.2);
 }
-/* ------------------------------------------------------------------ */
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
+////////// Header Styles
 
 header {
   position: relative;
@@ -100,7 +94,7 @@ header {
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
-  /* vertically center banner section */
+  //// Vertically centered banner section
   &:before {
     content: "";
     display: inline-block;
@@ -117,13 +111,14 @@ header {
   }
   .site-title {
     position: absolute;
-    font: 14px/1.4em "montserrat-regular", sans-serif;
+    font: 14px/1.4em "Montserrat", sans-serif;
     color: white;
     margin: 0;
     text-transform: uppercase;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     left: 4px;
     top: 3px;
+    transition: all 0.3s ease-in-out;
 
     img {
       width: 36px;
@@ -133,21 +128,24 @@ header {
   }
   .banner-text {
     width: 100%;
+    padding-top: 100px;
     hr {
       width: 60%;
-      margin: 18px auto 24px auto;
+      margin: 0 auto;
+      border: none;
       border-bottom: solid 1px rgba($aqua, 0.9);
     }
     h1 {
-      font: 90px/1.1em "montserrat-bold", sans-serif;
+      font: 800 90px/1.1em "Montserrat", sans-serif;
       color: #fff;
       letter-spacing: -1px;
       margin: 0 auto 18px auto;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
     }
     h3 {
-      font: 24px/1.5em "montserrat-regular", serif;
+      font: 24px/1.5em "Montserrat", serif;
       color: #fff;
+      font-weight: 400;
       margin: 0 auto;
       width: 80%;
       text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -156,12 +154,13 @@ header {
         color: #fff;
       }
       a {
-        font: 16px/1.5em "montserrat-semiBold", serif;
+        font: 16px/1.5em "Montserrat", serif;
         color: #fff;
+        font-weight: 700;
         display: inline-block;
         border-radius: 4px;
         padding: 15px 20px;
-        margin-top: 10px;
+        margin: 30px 0;
         transition: all 0.2s ease-in-out;
         border: 2px solid rgba(lighten($brightCoral, 5%), 0.7);
 
@@ -186,9 +185,9 @@ header {
       }
     }
   }
-  /* header social links */
+  //// Header Social Links
   .social {
-    margin: 24px 0;
+    margin: 30px 0;
     padding: 0;
     font-size: 30px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
@@ -207,48 +206,23 @@ header {
       }
     }
   }
-  .scrolldown a {
-    position: absolute;
-    bottom: 60px;
-    left: 50%;
-    margin-left: -18px;
-    color: #fff;
-    display: block;
-    height: 36px;
-    width: 36px;
-    font-size: 36px;
-    line-height: 36px;
-    color: #fff;
-    border-radius: 100%;
-
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-
-    &:hover {
-      color: $brightCoral;
-      transform: scale(1.2);
-    }
-  }
 }
 
 @media only screen and (max-width: 1024px) {
-  /* header styles
- ------------------------------------------------------------------ */
   header .banner-text h1 {
-    font: 80px/1.1em "montserrat-bold", sans-serif;
+    font: 80px/1.1em "Montserrat", sans-serif;
+    font-weight: bold;
     letter-spacing: -1px;
     margin: 0 auto 12px auto;
   }
 }
 
-/* primary navigation
---------------------------------------------------------------------- */
+//// Primary Nav
 #nav-wrap {
-  font: 12px "montserrat-bold", sans-serif;
+  font: 12px "Montserrat", sans-serif;
   width: 100%;
   text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: 2.5px;
   margin: 0 auto;
   z-index: 100;
@@ -256,14 +230,10 @@ header {
   left: 0;
   top: 0;
   background: rgba(49, 46, 65, 0);
-  transition: all 0.4s ease-in-out;
-  //Adds background after scrolling w/ some JS
+  transition: all 0.3s ease-in-out;
+  //// Adds background after scrolling w/ some JS
   &.scroll {
     background: rgba(33, 30, 50, 0.858);
-  }
-  /* hide toggle button */
-  & > a.mobile-btn {
-    display: none;
   }
 
   li,
@@ -285,12 +255,9 @@ ul#nav {
   li {
     position: relative;
     list-style: none;
-    height: 48px;
     display: inline-block;
 
     a {
-      /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
       display: inline-block;
       padding: 8px 13px;
       line-height: 32px;
@@ -315,9 +282,7 @@ ul#nav {
   }
 }
 
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
+////////////// About Section
 
 #about {
   background-color: $purple;
@@ -345,14 +310,15 @@ ul#nav {
   }
 
   h2 {
-    font: 22px/30px "montserrat-bold", sans-serif;
+    font: 22px/30px "Montserrat", sans-serif;
     color: #fff;
+    font-weight: bold;
     margin-bottom: 12px;
   }
 
   h3 {
     color: $coral;
-    font: 22px/30px "montserrat-regular", sans-serif;
+    font: 22px/30px "Montserrat", sans-serif;
   }
 
   h4 {
@@ -378,6 +344,9 @@ ul#nav {
     p {
       font-size: 15px;
     }
+  }
+  .contact-details {
+    font-size: 0.8em;
   }
   .profile-pic {
     position: relative;
@@ -444,7 +413,8 @@ ul#nav {
 #about a,
 #about a:visited {
   color: #fff;
-  font: 1em/1.8em "montserrat-semiBold", sans-serif;
+  font: 1em/1.8em "Montserrat", sans-serif;
+  font-weight: 600;
 }
 #about a:hover,
 #about a:focus {
@@ -452,17 +422,16 @@ ul#nav {
   background-position: 0%;
 }
 
-/* ------------------------------------------------------------------ */
-/* e. Portfolio Section
-/* ------------------------------------------------------------------ */
+////////////// Portfolio Section
 
 #portfolio {
   background: $aqua;
   padding-top: 90px;
   padding-bottom: 60px;
   h1 {
-    font: 16px/24px "montserrat-semibold", sans-serif;
+    font: 16px/24px "Montserrat", sans-serif;
     text-transform: uppercase;
+    font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
@@ -477,12 +446,14 @@ ul#nav {
       padding: 18px;
 
       h5 {
-        font: 14px/21px "montserrat-bold", sans-serif;
+        font: 14px/21px "Montserrat", sans-serif;
+        font-weight: bold;
         color: #fff;
       }
       p {
-        font: 12px/18px "montserrat-light", sans-serif;
+        font: 12px/18px "Montserrat", sans-serif;
         color: #c6c7c7;
+        font-weight: 300;
         margin-bottom: 0;
       }
     }
@@ -569,13 +540,13 @@ ul#nav {
   }
 }
 
-/* popup modal */
+//// Popup Modal
 .popup-modal {
-  max-width: 650px;
-  min-width: 550px;
+  width: 100%;
   background: #f5f5f5;
   border-radius: 30px;
   overflow: hidden;
+  top: -50px;
   padding-bottom: 45px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
   position: fixed;
@@ -598,17 +569,19 @@ ul#nav {
     background: none;
 
     h4 {
-      font: 15px/24px "montserrat-bold", sans-serif;
+      font: 15px/24px "Montserrat", sans-serif;
+      font-weight: bold;
       margin-bottom: 12px;
       color: $purple;
     }
     p {
-      font: 14px/24px "montserrat-regular", sans-serif;
+      font: 14px/24px "Montserrat", sans-serif;
       color: darken($gray, 5%);
       margin-bottom: 12px;
     }
     .categories {
-      font: 10px/21px "montserrat-bold", sans-serif;
+      font: 10px/21px "Montserrat", sans-serif;
+      font-weight: bold;
       color: darken($offWhite, 25%);
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -642,7 +615,8 @@ ul#nav {
     padding: 25px 10%;
     a {
       color: #fff;
-      font: 11px/21px "montserrat-bold", sans-serif;
+      font: 11px/21px "Montserrat", sans-serif;
+      font-weight: bold;
       text-transform: uppercase;
       border-radius: 3px;
       color: $purple;
@@ -692,18 +666,14 @@ ul#nav {
     opacity: 1;
     pointer-events: auto;
     position: absolute;
-    left: 23%;
   }
 }
 
-/* ------------------------------------------------------------------ */
-/* i. Footer
-/* ------------------------------------------------------------------ */
+//////////// Footer
 
 footer {
   padding: 48px;
   background-color: lighten($brightCoral, 7%);
-  /* font-size: 14px; */
   text-align: center;
   position: relative;
   border-bottom: 8px solid darken($mutedCoral, 10%);
@@ -719,7 +689,7 @@ footer a:focus {
   color: #fff;
 }
 
-/* copyright */
+//// Copyright
 footer .copyright {
   margin: 50px auto 0;
   padding: 0;
@@ -743,7 +713,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* social links */
+//// Social Links
 footer .social {
   margin: 18px 0 30px 0;
   padding: 0;
@@ -764,7 +734,7 @@ footer .social li:first-child {
   margin-left: 0;
 }
 
-/* Go To Top Button */
+//// To Top Btn
 #go-top {
   position: absolute;
   top: -22px;
@@ -797,7 +767,7 @@ footer .social li:first-child {
   }
 }
 
-/* screenwidth less than 900px
+/* screen width less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
   /* header styles
@@ -811,17 +781,8 @@ footer .social li:first-child {
     letter-spacing: -1px;
   }
   header .banner-text h3 {
-    font: 17px/1.9em "montserrat-regular", serif;
+    font-size: 20px;
     width: 80%;
-  }
-  header .banner-text hr {
-    width: 65%;
-    margin: 12px auto;
-  }
-  /* nav-wrap */
-  #nav-wrap {
-    font: 11px;
-    letter-spacing: 1.5px;
   }
 
   /* About Section
@@ -829,101 +790,97 @@ footer .social li:first-child {
   #about .contact-details {
     width: 50%;
   }
-
-  /* Resume Section
- ------------------------------------------------------------------- */
-  #resume h1 {
-    font: 16px/24px;
-  }
-  #resume .main-col {
-    padding-right: 5%;
-  }
-
-  /* Testimonials Section
- ------------------------------------------------------------------- */
-  #testimonials .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
-  }
-  #testimonials blockquote p {
-    font-size: 22px;
-    line-height: 46px;
-  }
-
-  /* Call to Action Section
- ------------------------------------------------------------------- */
-  #call-to-action .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
-  }
-
-  /* Contact Section
- ------------------------------------------------------------------- */
-  #contact .section-head {
-    margin-bottom: 30px;
-  }
-  #contact .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
-  }
-  #contact .section-head p.lead {
-    font: 17px/33px montserrat-light, sans-serif;
-  }
 }
 
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
-
 @media only screen and (max-width: 767px) {
   /* mobile navigation
  -------------------------------------------------------------------- */
   #nav-wrap {
-    font: 12px "montserrat-bold", sans-serif;
+    font: 12px "Montserrat", sans-serif;
+    font-weight: bold;
     letter-spacing: 1.5px;
     background: rgba(33, 30, 50, 0.858);
     width: auto;
     position: fixed;
     top: 0;
     right: 0;
-  }
-  ul#nav {
-    text-align: right;
+
+    .logo {
+      .site-title {
+        top: 12px;
+      }
+    }
+
+    ul#nav {
+      text-align: right;
+      height: 64px;
+      a {
+        font-size: 11px;
+        padding: 32px 22px 0;
+        span {
+          position: absolute;
+          left: 34%;
+          top: 8px;
+          font-size: 30px;
+        }
+      }
+
+      .resume span {
+        color: $aqua;
+      }
+      .portfolio span,
+      .about span {
+        color: $mutedCoral;
+      }
+      .portfolio span {
+        left: 37%;
+      }
+      .resume span {
+        left: 35%;
+      }
+    }
   }
 
-  /* Header Styles
- -------------------------------------------------------------------- */
-  header .banner {
-    padding-bottom: 12px;
-    padding-top: 6px;
-  }
-  header .banner-text h1 {
-    font: 68px/1.1em "montserrat-bold", sans-serif;
-  }
-  header .banner-text h3 {
-    width: 80%;
-  }
-  header .banner-text hr {
-    width: 80%;
-    margin: 18px auto;
+  ///////// Header
+  header {
+    .banner {
+      padding-bottom: 12px;
+      padding-top: 6px;
+    }
+    .banner-text {
+      padding-top: 60px;
+      h1 {
+        font: 68px/1.1em "Montserrat", sans-serif;
+        font-weight: bold;
+      }
+      h3 {
+        width: 80%;
+
+        a {
+          color: darken($purple, 10%);
+          padding: 15px 35px;
+          text-shadow: 0 0px 2px rgba(lighten($brightCoral, 7%), 0.89),
+            0 0px 5px rgba(lighten($brightCoral, 7%), 0.89);
+          background-color: rgba(lighten($brightCoral, 5%), 1);
+          box-shadow: 0 0 10px rgba($brightCoral, 1),
+            0 0 40px rgba($brightCoral, 1), 0 0 80px rgba($brightCoral, 1);
+
+          span {
+            color: darken($purple, 10%);
+            padding-left: 6px;
+          }
+        }
+      }
+      hr {
+        width: 80%;
+        margin: 18px auto;
+      }
+    }
   }
 
-  /* header social links */
-  header .social {
-    margin: 18px 0 24px 0;
-    font-size: 24px;
-    line-height: 36px;
-  }
-  header .social li {
-    margin: 0 10px;
-  }
-
-  /* scrolldown link */
-  header .scrolldown {
-    display: none;
-  }
-
-  /* About Section
- -------------------------------------------------------------------- */
+  //////// About Section
   #about img.profile-pic {
     max-width: 60%;
     margin: 0 auto 40px;
@@ -941,140 +898,33 @@ footer .social li:first-child {
     top: 97.6%;
   }
 
-  /* Resume Section
- --------------------------------------------------------------------- */
-  #resume .header-col {
-    padding-top: 0;
-    margin-bottom: 48px;
-    text-align: center;
+  /////////// Portfolio
+  #portfolio {
+    .portfolio-item {
+      .item-wrap {
+        .link-icon {
+          opacity: 1;
+        }
+        .overlay {
+          opacity: 0.9;
+          text-align: center;
+          text-shadow: 0 2px 1px rgba(darken($purple, 20%), 0.7);
+          h5 {
+            font-size: 18px;
+            margin: 40px 0 10px;
+          }
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
   }
-  #resume h1 {
-    letter-spacing: 3px;
-  }
-  #resume .main-col {
-    padding-right: 30px;
-  }
-  #resume h3,
-  #resume .info {
-    text-align: center;
-  }
-
-  .bars {
-    width: 100%;
-  }
-
-  /* Call To Action Section
- /* ----------------------------------------------------------------- */
-  #call-to-action {
-    text-align: center;
-  }
-  #call-to-action h1 {
-    font: 16px/24px "montserrat-bold", sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #call-to-action h1 span {
-    display: block;
-  }
-  #call-to-action .header-col h1:before {
-    content: none;
-  }
-  #call-to-action p {
-    font-size: 15px;
+  .project {
+    margin: 15px 5% 45px;
   }
 
-  /* Portfolio Section
- /* ----------------------------------------------------------------- */
-  #portfolio-wrapper .columns {
-    margin-bottom: 40px;
-  }
-  .popup-modal {
-    max-width: 85%;
-  }
-
-  /* Testimonials Section
- ----------------------------------------------------------------------- */
-  #testimonials .text-container {
-    text-align: center;
-  }
-  #testimonials h1 {
-    font: 16px/24px "montserrat-bold", sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #testimonials h1 span {
-    display: block;
-  }
-  #testimonials .header-col h1:before {
-    content: none;
-  }
-  #testimonials blockquote {
-    padding-bottom: 24px;
-  }
-  #testimonials blockquote p {
-    font-size: 20px;
-    line-height: 42px;
-  }
-
-  /* Control Nav */
-  .flex-control-nav {
-    text-align: center;
-    margin-left: -30px;
-  }
-
-  /* contact Section
- ----------------------------------------------------------------------- */
-  #contact {
-    padding-bottom: 66px;
-  }
-  #contact .section-head {
-    margin-bottom: 12px;
-  }
-  #contact .section-head h1 {
-    font: 16px/24px "montserrat-bold", sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #contact h1 span {
-    display: block;
-  }
-  #contact .header-col {
-    padding-top: 0;
-  }
-  #contact .header-col h1:before {
-    content: none;
-  }
-  #contact .section-head p.lead {
-    text-align: center;
-  }
-
-  /* form */
-  #contact label {
-    float: none;
-    width: 100%;
-  }
-  #contact input,
-  #contact textarea,
-  #contact select {
-    margin-bottom: 6px;
-    width: 100%;
-  }
-  #contact button.submit {
-    margin: 30px 0 24px 0;
-  }
-  #message-warning,
-  #message-success {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  /* footer
- ------------------------------------------------------------------------ */
-
-  /* copyright */
+  //// Copyright
   footer .copyright li:before {
     content: none;
   }
@@ -1082,7 +932,7 @@ footer .social li:first-child {
     margin-right: 12px;
   }
 
-  /* social links */
+  //// Social Links
   footer .social {
     font-size: 22px;
 
@@ -1102,37 +952,71 @@ footer .social li:first-child {
 @media only screen and (max-width: 480px) {
   /* mobile navigation
  -------------------------------------------------------------------- */
-  #nav-wrap ul#nav {
+
+  ////////// Header
+  header {
+    height: 650px;
+
+    .banner-text {
+      padding-top: 60px;
+
+      h1 {
+        font: 48px/1.1em "Montserrat", sans-serif;
+        font-weight: bold;
+        margin: 0 auto 24px auto;
+      }
+      h3 {
+        font: 16px/1.9em "Montserrat", sans-serif;
+        width: 90%;
+
+        a {
+          color: darken($purple, 10%);
+          padding: 15px 35px;
+          text-shadow: 0 0px 2px rgba(lighten($brightCoral, 7%), 0.89),
+            0 0px 5px rgba(lighten($brightCoral, 7%), 0.89);
+          background-color: rgba(lighten($brightCoral, 5%), 1);
+          box-shadow: 0 0 10px rgba($brightCoral, 1),
+            0 0 40px rgba($brightCoral, 1), 0 0 80px rgba($brightCoral, 1);
+
+          span {
+            color: darken($purple, 10%);
+            padding-left: 6px;
+          }
+        }
+      }
+    }
+  }
+
+  #nav-wrap {
+    font: 12px "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background: rgba(33, 30, 50, 0.858);
     width: auto;
-    float: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    .logo {
+      .site-title {
+        top: 12px;
+      }
+    }
+
+    ul#nav {
+      a {
+        padding: 32px 16px 0 !important;
+      }
+    }
   }
 
-  /* header styles
- -------------------------------------------------------------------- */
-  header .banner {
-    padding-top: 24px;
-  }
-  header .banner-text h1 {
-    font: 40px/1.1em "montserrat-bold", sans-serif;
-    margin: 0 auto 24px auto;
-  }
-  header .banner-text h3 {
-    font: 14px/1.9em "domine-regular", sans-serif;
-    width: 90%;
-  }
-
-  /* header social links */
+  //// Social Links
   header .social {
     font-size: 20px;
   }
   header .social li {
     margin: 0 6px;
   }
-
-  /* footer
- ------------------------------------------------------------------------ */
-
-  /* social links */
   footer .social {
     font-size: 20px;
   }

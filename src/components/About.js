@@ -20,10 +20,10 @@ const About = () => (
         </p>
         <p>
           My start in Web Development began ten years ago and I have strived to
-          be on the cutting edge of the new technologies/methodologies ever
-          since. I am always trying to increase the quality of work I can
-          provide my clients, and ensure I am using the most appropriate
-          technology for their project.
+          be on the cutting edge of the new web technologies ever since. I am
+          always trying to increase the quality of work I can provide my
+          clients, and ensure I am using the most appropriate technology for
+          their project.
         </p>
         <p>
           Have a project you might want my help with?{" "}

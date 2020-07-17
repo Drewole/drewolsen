@@ -1,6 +1,5 @@
 import React from "react"
-import { MdHome, MdFace, MdCardTravel, MdDescription } from "react-icons/md"
-import { Link } from "gatsby"
+import { MdFace, MdCardTravel, MdDescription } from "react-icons/md"
 
 import SiteLogo from "./SiteLogo"
 
@@ -40,25 +39,25 @@ class Navigation extends React.Component {
       <nav id="nav-wrap">
         <SiteLogo />
         <ul id="nav" className="nav">
-          <li className={isCurrent("#home", pathname)}>
-            <Link to={`#home`}>
-              <span>
-                <MdHome />
-              </span>
-              Home
-            </Link>
-          </li>
           <li className={isCurrent("#about", pathname)}>
-            <a className="smoothscroll" href="#about">
+            <a className="about" href="#about">
               <span>
                 <MdFace />
               </span>
               About
             </a>
           </li>
+          <li className={isCurrent("#portfolio", pathname)}>
+            <a href="#portfolio" className="portfolio">
+              <span>
+                <MdCardTravel />
+              </span>
+              Portfolio
+            </a>
+          </li>
           <li className={isCurrent("#resume", pathname)}>
             <a
-              className="smoothscroll resume"
+              className="resume"
               rel="noopener"
               href="/downloads/DrewOlsenResume.pdf"
             >
@@ -66,14 +65,6 @@ class Navigation extends React.Component {
                 <MdDescription />
               </span>
               Resumé
-            </a>
-          </li>
-          <li className={isCurrent("#portfolio", pathname)}>
-            <a href="#portfolio" className="smoothscroll">
-              <span>
-                <MdCardTravel />
-              </span>
-              Portfolio
             </a>
           </li>
         </ul>
