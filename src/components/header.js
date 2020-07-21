@@ -1,15 +1,13 @@
-import React from "react"
+import React from 'react';
 
-import Navigation from "./Navigation"
-import Banner from "./Banner"
+import Navigation from './Navigation';
+import Banner from './Banner';
 
-const Header = () => {
-  return (
-    <header id="home">
-      <Navigation />
-      <Banner />
-    </header>
-  )
-}
+const Header = () => (
+	<header id="home">
+		<Navigation />
+		<Banner />
+	</header>
+);
 
-export default Header
+export default Header;
