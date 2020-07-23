@@ -17,7 +17,9 @@ $outside-link: $aqua;
 
 // TODO Gatsby background image
 
-// TODO Project links sorted
+// TODO Figure out why the project overlay is so late on the animation
+
+// TODO Add gifs in place of the images using react-gif-player
 
 // TODO Add descriptions to the projects
 
@@ -332,6 +334,7 @@ ul#nav {
 
   h4 {
     color: #44a69d;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-transform: uppercase;
   }
