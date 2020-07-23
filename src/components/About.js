@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import { MdDescription } from 'react-icons/md';
+import { Link } from 'gatsby';
 
 import profilePic from '../images/profilepic.jpg';
 
@@ -60,15 +61,12 @@ const About = () => (
 						</p>
 					</div>
 					<div className="columns download">
-						<a
-							href="https://drive.google.com/file/d/1i8chX2JYvaPvsJd__pZwLBONGygN0sDs/view?usp=sharing"
-							className="button"
-						>
+						<Link className="button" to={`/DrewOlsenResume.pdf`}>
 							<span>
 								<MdDescription />
 							</span>
 							Download Resume
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

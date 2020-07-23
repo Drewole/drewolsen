@@ -920,20 +920,16 @@ footer .social li:first-child {
 }
 
 //// Copyright
-footer .copyright li:before {
-	content: none;
-}
-footer .copyright li {
-	margin-right: 12px;
-}
 
-//// Social Links
-footer .social {
+footer .copyright {
 	font-size: 22px;
 
 	li {
 		margin-left: 18px;
-
+		margin-right: 12px;
+		&:before {
+			content: none;
+		}
 		a {
 			padding: 5px;
 		}
