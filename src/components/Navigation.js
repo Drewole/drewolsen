@@ -1,9 +1,7 @@
 import React from "react"
 import { MdFace, MdCardTravel, MdDescription } from "react-icons/md"
-import { Link } from "gatsby"
 
 import SiteLogo from "./SiteLogo"
-import resumePdf from "../downloads/DrewOlsenResume.pdf"
 
 //Lets add the class to add shading to the nav when scrolling
 if (typeof window !== `undefined`) {
@@ -58,12 +56,16 @@ class Navigation extends React.Component {
             </a>
           </li>
           <li className={isCurrent("#resume", pathname)}>
-            <Link to={resumePdf}>
+            <a
+              className="resume"
+              rel="noopener"
+              href="https://drive.google.com/file/d/1i8chX2JYvaPvsJd__pZwLBONGygN0sDs/view?usp=sharing"
+            >
               <span>
                 <MdDescription />
               </span>
               Resumé
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
