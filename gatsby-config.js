@@ -6,7 +6,7 @@ module.exports = {
       "Drew Olsen - A Designer that can build websites / web apps from the ground up.",
     author: "Drew Olsen",
     description:
-      "A Multi-faceted Front-End Web Developer with design skills... And an unhealthy fondness for Montserrat.",
+      "A Multi-faceted Front-End Web Developer with design skills... And an unhealthy fondness for Montserrat. :D",
   },
   plugins: [
     {

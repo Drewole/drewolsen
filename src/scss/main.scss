@@ -336,6 +336,7 @@ ul#nav {
     color: #44a69d;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
+    margin-bottom: 2px;
     text-transform: uppercase;
   }
 
@@ -916,13 +917,14 @@ footer .social li:first-child {
   }
   /////////// Portfolio #portfolio {
   .portfolio-item {
+    margin-bottom: 45px !important;
     .item-wrap {
       border-radius: 6px;
       .link-icon {
-        opacity: 1;
+        opacity: 1 !important;
       }
       .overlay {
-        opacity: 0.9;
+        opacity: 0.9 !important;
         text-align: center;
         text-shadow: 0 2px 1px rgba(darken($purple, 20%), 0.7);
         h5 {
@@ -935,10 +937,10 @@ footer .social li:first-child {
       }
     }
   }
-}
-.project {
-  .popup-modal {
-    left: 0;
+  .project {
+    .popup-modal {
+      left: 0;
+    }
   }
 }
 
