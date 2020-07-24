@@ -15,8 +15,8 @@ const About = () => (
         <p>
           I am a Front-End Web Developer with around ten years of experience.
           Some might consider me a Designer that can Code. I have an eye for
-          design but also understand, implement and explain the technical side
-          of Front End Website Development.
+          design but also understand, can implement, and explain the technical
+          side of Front End Website Development.
         </p>
         <p>
           My start in Web Development began ten years ago and I have strived to
