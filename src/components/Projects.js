@@ -18,14 +18,14 @@ const Projects = () => {
 						squareImg {
 							childImageSharp {
 								fluid {
-									...GatsbyImageSharpFluid
+									...GatsbyImageSharpFluid_withWebp
 								}
 							}
 						}
 						frontImg {
 							childImageSharp {
 								fluid(maxHeight: 700, maxWidth: 1050, cropFocus: NORTH) {
-									...GatsbyImageSharpFluid
+									...GatsbyImageSharpFluid_withWebp
 								}
 							}
 						}
