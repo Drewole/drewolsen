@@ -100,7 +100,8 @@ a span {
 
 header {
 	position: relative;
-
+	background-color: lighten($purple, 5%);
+	border-bottom: 10px solid lighten($purple, 5%);
 	width: 100%;
 	text-align: center;
 	overflow: hidden;
@@ -109,6 +110,7 @@ header {
 		align-items: center;
 		justify-content: center;
 		background-size: cover;
+		padding-bottom: 40px;
 	}
 
 	//// Vertically centered banner section
@@ -368,7 +370,7 @@ ul#nav {
 		max-height: 100%;
 		border-radius: 100%;
 		border: 6px solid darken($purple, 5%);
-		box-shadow: 0 0 0 12px $purple;
+		box-shadow: 0 0 0 12px $purple, 0 -10px 0 7px lighten($purple, 5%);
 	}
 	a {
 		padding: 0px 5px 3px;
@@ -555,11 +557,7 @@ ul#nav {
 	margin: 0 auto;
 	z-index: 99999;
 	opacity: 0;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	-ms-transition: all 200ms ease-in-out;
-	transition: all 200ms ease-in-out;
+	transition: all 0.2s ease-in-out;
 	pointer-events: none;
 
 	img {
@@ -946,8 +944,9 @@ footer .copyright {
 
 	////////// Header
 	header {
-		height: 650px;
-
+		.hero-bkg {
+			padding-bottom: 60px;
+		}
 		.banner-text {
 			padding-top: 60px;
 
