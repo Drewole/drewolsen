@@ -1,30 +1,28 @@
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
-import styled from 'styled-components';
 import { MdCardTravel } from 'react-icons/md';
 
 import SocialLinks from './SocialLinks';
-
 import BackgroundImage from 'gatsby-background-image';
 
-const BackgroundSection = ({ className }) => (
+const BannerImage = () => (
 	<StaticQuery
 		query={graphql`
 			{
 				file(relativePath: { eq: "pineTreesBkg.jpg" }) {
 					childImageSharp {
-						fluid(quality: 90, maxWidth: 2400) {
+						fluid(quality: 90, maxWidth: 1800) {
 							...GatsbyImageSharpFluid_withWebp
 						}
 					}
 				}
 			}
 		`}
-		render={(data) => {
+		render={(query) => {
 			// Set ImageData.
-			const imageData = data.childImageSharp.fluid;
+			const imageData = query.file.childImageSharp.fluid;
 			return (
-				<BackgroundImage Tag="section" className={className} fluid={imageData} backgroundColor={`#2f2b41`}>
+				<BackgroundImage Tag="section" className="hero-bkg" fluid={imageData} backgroundColor={`#2f2b41`}>
 					<div className="row banner">
 						<div className="banner-text">
 							<h1 className="responsive-headline">A Designer That Can Code.</h1>
@@ -48,12 +46,5 @@ const BackgroundSection = ({ className }) => (
 		}}
 	/>
 );
-
-const BannerImage = styled(BackgroundSection)`
-  width: 100%;
-  background-position: bottom center;
-  background-repeat: repeat-y;
-  background-size: cover;
-`;
 
 export default BannerImage;

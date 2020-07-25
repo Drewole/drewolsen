@@ -1,11 +1,11 @@
 import React from 'react';
 import Navigation from './Navigation';
-import Banner from './Banner';
+import BannerImage from './BannerImage';
 
 const Hero = () => (
 	<header id="home">
 		<Navigation />
-		<Banner />
+		<BannerImage />
 	</header>
 );
 

@@ -19,7 +19,9 @@ $outside-link: $aqua;
 
 // TODO Gatsby background image
 
-// TODO Add gifs in place of the images using react-gif-player
+// TODO Add your own contact page
+
+// TODO Add gifs in place of the images using react-gif-player. NEED TO LEARN HOW TO LOAD ON DEMAND FOR THIS. LOAD TIMES WILL BE ATTROCIOUS
 
 // TODO Add descriptions to the projects
 
@@ -98,20 +100,18 @@ a span {
 
 header {
 	position: relative;
-	height: 730px;
+
 	width: 100%;
-	background: $purple url(../images/pineTreesBkg.jpg) no-repeat top center;
-	background-size: cover !important;
-	-webkit-background-size: cover !important;
 	text-align: center;
 	overflow: hidden;
-	//// Vertically centered banner section
-	&:before {
-		content: "";
-		display: inline-block;
-		vertical-align: middle;
-		height: 100%;
+	.hero-bkg {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-size: cover;
 	}
+
+	//// Vertically centered banner section
 	.banner {
 		display: inline-block;
 		vertical-align: middle;
@@ -259,6 +259,7 @@ header {
 ul#nav {
 	min-height: 48px;
 	width: auto;
+	padding-left: 0;
 	margin: 0;
 	transition: all 0.4s ease-in-out;
 	text-align: center;
@@ -452,6 +453,7 @@ ul#nav {
 	.portfolio-item {
 		.portfolio-item-meta {
 			padding: 18px;
+			max-width: 100%;
 
 			h5 {
 				font: 14px/21px "Montserrat", sans-serif;
@@ -503,8 +505,8 @@ ul#nav {
 				position: absolute;
 				left: 0;
 				top: 0;
-				width: 200%;
-				height: 200%;
+				width: 100%;
+				height: 100%;
 				opacity: 0;
 				-moz-opacity: 0;
 				-webkit-transition: opacity 0.15s ease-in-out;
