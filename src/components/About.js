@@ -5,14 +5,16 @@ import { siteMetadata } from '../../gatsby-config';
 
 import profilePic from '../images/profilepic.jpg';
 
-const availability = siteMetadata.available == true ? 'available' : 'not-available';
-
+const availabilityText = siteMetadata.available === true ? 'available!' : 'unavailable :(';
+const available = siteMetadata.available === true ? 'available' : '';
 const About = () => (
 	<section id="about">
 		<div className="row">
 			<div className="three columns pic">
 				<img className="profile-pic" src={profilePic} alt="Illustration of Drew Olsen" />
-				<p className={availability}>I am {availability}</p>
+				<p className={available}>
+					Have work? I am <span>{availabilityText}</span>
+				</p>
 			</div>
 			<div className="nine columns main-col">
 				<h2>About Me</h2>

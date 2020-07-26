@@ -6,6 +6,7 @@ $aqua: #44a69d;
 $purple: #2f2b41;
 $gray: #373737;
 $offWhite: #f5f5f5;
+$available: #00ff63;
 
 $inside-link: $coral;
 $outside-link: $aqua;
@@ -17,13 +18,15 @@ $outside-link: $aqua;
 
 // TODO We gonna clean this thing up
 
-// TODO Gatsby background image
-
 // TODO Add your own contact page
+
+// TODO Fix the accent at the bottom of contact section
 
 // TODO Add gifs in place of the images using react-gif-player. NEED TO LEARN HOW TO LOAD ON DEMAND FOR THIS. LOAD TIMES WILL BE ATTROCIOUS
 
 // TODO Add descriptions to the projects
+
+// TODO Make the modals look like a mini browser window
 
 // TODO Smooth scroll to links
 
@@ -110,7 +113,7 @@ header {
 		align-items: center;
 		justify-content: center;
 		background-size: cover;
-		padding-bottom: 40px;
+		padding: 40px 0 60px;
 	}
 
 	//// Vertically centered banner section
@@ -224,7 +227,7 @@ header {
 @media only screen and (max-width: 1024px) {
 	header .banner-text h1 {
 		font: 80px/1.1em "Montserrat", sans-serif;
-		font-weight: bold;
+		font-weight: 800;
 		letter-spacing: -1px;
 		margin: 0 auto 12px auto;
 	}
@@ -371,6 +374,21 @@ ul#nav {
 		border-radius: 100%;
 		border: 6px solid darken($purple, 5%);
 		box-shadow: 0 0 0 12px $purple, 0 -10px 0 7px lighten($purple, 5%);
+	}
+	.pic {
+		p {
+			text-align: center;
+			font-size: 14px;
+			span {
+				font-weight: bold;
+				color: $coral;
+			}
+			&.available {
+				span {
+					color: $available;
+				}
+			}
+		}
 	}
 	a {
 		padding: 0px 5px 3px;
@@ -845,7 +863,7 @@ footer .social li:first-child {
 			padding-top: 60px;
 			h1 {
 				font: 68px/1.1em "Montserrat", sans-serif;
-				font-weight: bold;
+				font-weight: 800;
 			}
 			h3 {
 				width: 80%;
@@ -876,8 +894,11 @@ footer .social li:first-child {
 	#about {
 		img.profile-pic {
 			max-width: 60%;
-			margin: 0 auto 40px;
+			margin: 0 auto 15px;
 			display: block;
+		}
+		h2 {
+			padding-top: 25px;
 		}
 		.download .button {
 			width: 100%;
@@ -945,86 +966,87 @@ footer .copyright {
 	////////// Header
 	header {
 		.hero-bkg {
-			padding-bottom: 60px;
-		}
-		.banner-text {
-			padding-top: 60px;
+			padding: 40px 0 60px !important;
 
-			h1 {
-				font: 48px/1.1em "Montserrat", sans-serif;
-				font-weight: bold;
-				margin: 0 auto 24px auto;
-			}
-			h3 {
-				font: 16px/1.9em "Montserrat", sans-serif;
-				width: 90%;
+			.banner-text {
+				padding-top: 60px;
 
-				a {
-					color: darken($purple, 10%);
-					padding: 15px 35px;
-					text-shadow: 0 0px 2px rgba(lighten($brightCoral, 7%), 0.89),
-						0 0px 5px rgba(lighten($brightCoral, 7%), 0.89);
-					background-color: rgba(lighten($brightCoral, 5%), 1);
-					box-shadow: 0 0 10px rgba($brightCoral, 1), 0 0 40px rgba($brightCoral, 1),
-						0 0 80px rgba($brightCoral, 1);
+				h1 {
+					font: 48px/1.1em "Montserrat", sans-serif;
+					font-weight: bold;
+					margin: 0 auto 24px auto;
+				}
+				h3 {
+					font: 16px/1.9em "Montserrat", sans-serif;
+					width: 90%;
 
-					span {
+					a {
 						color: darken($purple, 10%);
-						padding-left: 6px;
+						padding: 15px 35px;
+						text-shadow: 0 0px 2px rgba(lighten($brightCoral, 7%), 0.89),
+							0 0px 5px rgba(lighten($brightCoral, 7%), 0.89);
+						background-color: rgba(lighten($brightCoral, 5%), 1);
+						box-shadow: 0 0 10px rgba($brightCoral, 1), 0 0 40px rgba($brightCoral, 1),
+							0 0 80px rgba($brightCoral, 1);
+
+						span {
+							color: darken($purple, 10%);
+							padding-left: 6px;
+						}
 					}
 				}
 			}
 		}
-	}
 
-	#nav-wrap {
-		font: 12px "Montserrat", sans-serif;
-		font-weight: bold;
-		letter-spacing: 1.5px;
-		background: rgba(33, 30, 50, 0.858);
-		width: auto;
-		position: fixed;
-		top: 0;
-		right: 0;
+		#nav-wrap {
+			font: 12px "Montserrat", sans-serif;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			background: rgba(33, 30, 50, 0.858);
+			width: auto;
+			position: fixed;
+			top: 0;
+			right: 0;
 
-		.logo {
-			.site-title {
-				top: 12px;
-			}
-		}
-
-		ul#nav {
-			text-align: right;
-			height: 64px;
-			a {
-				font-size: 10px;
-				padding: 28px 12px 4px;
-				line-height: 28px;
-				span {
-					position: absolute;
-					left: 34%;
-					top: 10px;
-					font-size: 20px;
+			.logo {
+				.site-title {
+					top: 12px;
 				}
 			}
-		}
-		#about {
-			&:after {
-				top: 94.4%;
-			}
-		}
 
-		//// Social Links
-		header .social {
-			font-size: 20px;
-			li {
-				margin: 0 6px;
-				margin-left: 14px;
+			ul#nav {
+				text-align: right;
+				height: 64px;
+				a {
+					font-size: 10px;
+					padding: 28px 12px 4px;
+					line-height: 28px;
+					span {
+						position: absolute;
+						left: 34%;
+						top: 10px;
+						font-size: 20px;
+					}
+				}
 			}
-		}
+			#about {
+				&:after {
+					top: 94.4%;
+				}
+			}
 
-		footer .twelve.columns {
-			width: auto;
+			//// Social Links
+			header .social {
+				font-size: 20px;
+				li {
+					margin: 0 6px;
+					margin-left: 14px;
+				}
+			}
+
+			footer .twelve.columns {
+				width: auto;
+			}
 		}
 	}
 }
