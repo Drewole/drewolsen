@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhone, FaEnvelope, FaRegCalendarCheck, FaRegSadTear } from 'react-icons/fa';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import { MdDescription } from 'react-icons/md';
 import { siteMetadata } from '../../gatsby-config';
 
@@ -13,7 +13,7 @@ const About = () => (
 			<div className="three columns pic">
 				<img className="profile-pic" src={profilePic} alt="Portrait illustration of Drew Olsen" />
 				<p className={available}>
-					Have work? I am <span>{availabilityText}</span>
+					Have work? I'm <span>{availabilityText}</span>
 				</p>
 			</div>
 			<div className="nine columns main-col">
