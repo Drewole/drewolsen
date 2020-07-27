@@ -20,8 +20,6 @@ $outside-link: $aqua;
 
 // TODO Add your own contact page
 
-// TODO Fix the accent at the bottom of contact section
-
 // TODO Add gifs in place of the images using react-gif-player. NEED TO LEARN HOW TO LOAD ON DEMAND FOR THIS. LOAD TIMES WILL BE ATTROCIOUS
 
 // TODO Add descriptions to the projects and look over any that you have added already
@@ -488,14 +486,14 @@ ul#nav {
 			max-width: 100%;
 
 			h5 {
-				font: 14px/21px "Montserrat", sans-serif;
-				font-weight: bold;
+				font: 12px/21px "Montserrat", sans-serif;
+				font-weight: 800;
 				color: #fff;
 			}
 			p {
-				font: 12px/18px "Montserrat", sans-serif;
+				font: 11px/18px "Montserrat", sans-serif;
 				color: #c6c7c7;
-				font-weight: 300;
+				font-weight: 500;
 				margin-bottom: 0;
 			}
 		}
