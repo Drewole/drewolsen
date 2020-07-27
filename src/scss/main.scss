@@ -316,7 +316,7 @@ ul#nav {
 	&:after {
 		content: "";
 		position: absolute;
-		top: 90.5%;
+		top: 89.5%;
 		left: 0;
 		right: 0;
 		margin: 0 auto;
@@ -324,9 +324,18 @@ ul#nav {
 		width: 0;
 		height: 0;
 		border-top: solid 50px $purple;
+		border-bottom: solid 50px $purple;
 		border-left: solid 15px transparent;
 		border-right: solid 285px transparent;
 		transform: rotate(180deg);
+
+		@media only screen and (min-width: 900px) {
+			#about {
+				&:after {
+					top: 90%;
+				}
+			}
+		}
 	}
 
 	h2 {
@@ -798,8 +807,13 @@ footer .social li:first-child {
 
 	/* About Section
  ------------------------------------------------------------------- */
-	#about .contact-details {
-		width: 50%;
+	#about {
+		.contact-details {
+			width: 50%;
+		}
+		&:after {
+			top: 90.5%;
+		}
 	}
 }
 
@@ -912,7 +926,7 @@ footer .social li:first-child {
 			padding-right: 30px;
 		}
 		&:after {
-			top: 97.6%;
+			top: 94.6%;
 		}
 	}
 	/////////// Portfolio #portfolio {
