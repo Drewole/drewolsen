@@ -55,10 +55,7 @@ const About = () => (
                 </span>
                 952.381.5559
               </a>
-              <a
-                className="form-link"
-                href="https://forms.gle/s9VwLkV3KA4xjcmk6"
-              >
+              <a className="form-link" href="/contact">
                 <span>
                   <FaEnvelope />
                 </span>
