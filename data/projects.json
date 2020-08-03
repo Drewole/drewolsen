@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Staincrete Decorative Concrete",
+		"year": "2015",
 		"slug": "staincrete",
 		"type": "Website Design & Development",
 		"description": "Decorative concrete company that wanted a website that could showcase their work.",
@@ -9,10 +10,12 @@
 		"frontImg": "./images/staincrete.jpg",
 		"insideImg": "./images/staincrete-showcase.jpg",
 		"mobileImg": "./images/staincrete-mobile.jpg",
-		"hasSite": "true"
+		"hasSite": "true",
+		"extSite": ""
 	},
 	{
 		"name": "Arrow Components",
+		"year": "2019",
 		"slug": "arrow",
 		"type": "Website Design & Development",
 		"description": "Trailer awning and cabinet company in need of a website refresh. Built mobile responsive and with a clean new design. Site is in progress and can be viewed at arrow.drewolsen.dev",
@@ -21,10 +24,12 @@
 		"frontImg": "./images/arrow.jpg",
 		"insideImg": "./images/arrow-inside.jpg",
 		"mobileImg": "./images/arrow-mobile.jpg",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": "https://arrow.drewolsen.dev"
 	},
 	{
 		"name": "Sweet Basil Restaurant",
+		"year": "2010",
 		"slug": "sweetbasil",
 		"type": "Website Design & Development",
 		"description": "Designed and built back in 2011 for a local small business at my very start. Also included food photography that I took of the dishes on the menu to give the website authenticity.",
@@ -33,10 +38,12 @@
 		"frontImg": "./images/sweetbasil.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "true"
+		"hasSite": "true",
+		"extSite": ""
 	},
 	{
 		"name": "Aggregate MN",
+		"year": "2016",
 		"slug": "aggregate2016",
 		"type": "Website Design & Development",
 		"description": "A redesign of the Aggregate MN website which never made it to completion.",
@@ -45,10 +52,12 @@
 		"frontImg": "./images/aggregate2016.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Aggregate MN",
+		"year": "2012",
 		"slug": "aggregate2012",
 		"type": "Website Design & Development",
 		"description": "Initial website I designed for Aggregate MN. Fully responsive and far exceeded the current standard in the local industry at that time.",
@@ -57,10 +66,12 @@
 		"frontImg": "./images/aggregate2012.jpg",
 		"insideImg": "",
 		"mobileImg": "./images/aggregate2012-mobile.jpg",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Boys'n the Barrel",
+		"year": "2011",
 		"slug": "boysinthebarrel",
 		"type": "Website Design",
 		"description": "Splash page I designed for another firm, for a local minnesota band.",
@@ -69,10 +80,12 @@
 		"frontImg": "./images/boysinbarrel.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Nightingale",
+		"year": "2015",
 		"slug": "nightingale",
 		"type": "Website Design & Development",
 		"description": "I really liked the design of this site and how I integrated design elements from the restaurant itself. Fully responsive and was extremely friendly for the Admin to use and update.",
@@ -81,10 +94,12 @@
 		"frontImg": "./images/nightingale.jpg",
 		"insideImg": "./images/nightingale-inside.jpg",
 		"mobileImg": "./images/nightingale-mobile.jpg",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Chef Jeff Catering",
+		"year": "2011",
 		"slug": "chefjeff",
 		"type": "Website Design",
 		"description": "Splash page I designed for another firm, for a local minnesota catering company.",
@@ -93,22 +108,26 @@
 		"frontImg": "./images/chefjeff.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
-		"name": "Jrhoades 2017",
+		"name": "Jrhoades Consulting",
+		"year": "2017",
 		"slug": "jrhoades2017",
 		"type": "Website Design/Dev",
-		"description": "Redesign of the Jrhoades website in 2015.",
+		"description": "Redesign of the Jrhoades website in 2017.",
 		"tags": "responsive, design, SCSS, development, web, custom theme, 'Wordpress'",
 		"squareImg": "./images/jrhoades2017-square.jpg",
 		"frontImg": "./images/jrhoades2017.jpg",
 		"insideImg": "./images/jrhoades2017-inside.jpg",
 		"mobileImg": "./images/jrhoades2017-mobile.jpg",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
-		"name": "Jrhoades 2012",
+		"name": "Jrhoades",
+		"year": "2012",
 		"slug": "jrhoades2012",
 		"type": "Website Design & Development",
 		"description": "Responsive design back in 2012",
@@ -117,7 +136,8 @@
 		"frontImg": "./images/jrhoades2012.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Infinite Graphics",
@@ -129,10 +149,12 @@
 		"frontImg": "./images/igi.jpg",
 		"insideImg": "./images/igi-inside.jpg",
 		"mobileImg": "./images/igi-mobile.jpg",
-		"hasSite": "true"
+		"hasSite": "true",
+		"extSite": ""
 	},
 	{
 		"name": "MNAPT",
+		"year": "2014",
 		"slug": "mnapt",
 		"type": "Website Design & Development",
 		"description": "Minnesota bus association website redesign. Integration with a membership plugin and WooCommerce.",
@@ -141,10 +163,12 @@
 		"frontImg": "./images/mnapt.jpg",
 		"insideImg": "./images/mnapt-inside.jpg",
 		"mobileImg": "./images/mnapt-mobile.jpg",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Lyndale Animal Hospital",
+		"year": "2011",
 		"slug": "lyndaleanimalhospital",
 		"type": "Website Design",
 		"description": "Splash page I designed for another firm, for a local minnesota veterinary clinic. They are in a retro building and wanted a retro look.",
@@ -153,22 +177,26 @@
 		"frontImg": "./images/lyndaleanimalhospital.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Tablerock Land Services",
+		"year": "2011",
 		"slug": "tablerock",
 		"type": "Website Design",
-		"description": "Splash page I designed for another firm, for a real estate company in the western United States.",
+		"description": "Splash page I designed for another firm. A real estate company in the western United States.",
 		"tags": "custom design, splash, real estate",
 		"squareImg": "./images/tablerock-square.jpg",
 		"frontImg": "./images/tablerock.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "PDR & Remodeling",
+		"year": "2013",
 		"slug": "pdr",
 		"type": "Website Design & Development",
 		"description": "Local MN Home builder/remodeler needed a website refresh.",
@@ -177,10 +205,12 @@
 		"frontImg": "./images/pdr.jpg",
 		"insideImg": "./images/pdr-inside.jpg",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Lift'n Store",
+		"year": "2016",
 		"slug": "liftnstore",
 		"type": "Website Design & Development",
 		"description": "README.md",
@@ -189,10 +219,12 @@
 		"frontImg": "./images/liftnstore.jpg",
 		"insideImg": "./images/liftnstore-inside.jpg",
 		"mobileImg": "./images/liftnstore-mobile.jpg",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "The Gathering Church",
+		"year": "2010",
 		"slug": "thegathering",
 		"type": "Website Design & Development",
 		"description": "README.md",
@@ -201,10 +233,12 @@
 		"frontImg": "./images/gathering.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	},
 	{
 		"name": "Fox Hollow GC",
+		"year": "2010",
 		"slug": "foxhollow",
 		"type": "Website Design & Development",
 		"description": "Website I designed and built for a local golf course. Non-responsive",
@@ -213,6 +247,7 @@
 		"frontImg": "./images/foxhollow.jpg",
 		"insideImg": "",
 		"mobileImg": "",
-		"hasSite": "false"
+		"hasSite": "false",
+		"extSite": ""
 	}
 ]

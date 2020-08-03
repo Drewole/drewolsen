@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPlus, FaTag, FaTimes } from 'react-icons/fa';
 import Image from 'gatsby-image';
 
-const Project = ({ squareImg, description, frontImg, hasSite, title, slug, tags, type }) => (
+const Project = ({ extSite, year, squareImg, description, frontImg, hasSite, title, slug, tags, type }) => (
 	<div className="project">
 		<div className="columns portfolio-item">
 			<div className="item-wrap">
@@ -11,6 +11,7 @@ const Project = ({ squareImg, description, frontImg, hasSite, title, slug, tags,
 					<div className="overlay">
 						<div className="portfolio-item-meta">
 							<h5>{title}</h5>
+							<h6>{year}</h6>
 							<p>{type}</p>
 						</div>
 					</div>

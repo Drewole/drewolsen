@@ -12,8 +12,10 @@ const Projects = () => {
 						tags
 						slug
 						name
+						year
 						id
 						hasSite
+						extSite
 						description
 						squareImg {
 							childImageSharp {
@@ -49,6 +51,8 @@ const Projects = () => {
 							const hasSite = project.hasSite;
 							const tags = project.tags;
 							const type = project.type;
+							const year = project.year;
+							const extSite = project.extSite;
 							const slug = project.slug;
 							const squareImg = project.squareImg.childImageSharp.fluid;
 							const frontImg = project.frontImg.childImageSharp.fluid;
@@ -57,6 +61,8 @@ const Projects = () => {
 									id={id}
 									title={title}
 									hasSite={hasSite}
+									year={year}
+									extSite={extSite}
 									description={description}
 									tags={tags}
 									type={type}
