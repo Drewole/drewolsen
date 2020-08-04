@@ -1,7 +1,6 @@
 import React from "react"
 import { FaPlus, FaTag, FaTimes } from "react-icons/fa"
 import Image from "gatsby-image"
-import { siteMetadata } from "../../gatsby-config"
 
 const Project = ({
   extSite,

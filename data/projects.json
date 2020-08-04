@@ -24,7 +24,7 @@
     "frontImg": "./images/arrow.jpg",
     "insideImg": "./images/arrow-inside.jpg",
     "mobileImg": "./images/arrow-mobile.jpg",
-    "hasSite": "true",
+    "hasSite": "false",
     "extSite": "https://arrow.drewolsen.dev"
   },
   {
@@ -52,20 +52,6 @@
     "frontImg": "./images/aggregate2016.jpg",
     "insideImg": "",
     "mobileImg": "",
-    "hasSite": "false",
-    "extSite": ""
-  },
-  {
-    "name": "Aggregate MN",
-    "year": "2012",
-    "slug": "aggregate2012",
-    "type": "Website Design & Development",
-    "description": "Initial website I designed for Aggregate MN. Fully responsive and far exceeded the current standard in the local industry at that time.",
-    "tags": "Responsive, Custom Design, SCSS, Wordpress, concrete",
-    "squareImg": "./images/aggregate2012-square.jpg",
-    "frontImg": "./images/aggregate2012.jpg",
-    "insideImg": "",
-    "mobileImg": "./images/aggregate2012-mobile.jpg",
     "hasSite": "false",
     "extSite": ""
   },
@@ -108,6 +94,20 @@
     "frontImg": "./images/jrhoades2017.jpg",
     "insideImg": "./images/jrhoades2017-inside.jpg",
     "mobileImg": "./images/jrhoades2017-mobile.jpg",
+    "hasSite": "false",
+    "extSite": ""
+  },
+  {
+    "name": "Aggregate MN",
+    "year": "2012",
+    "slug": "aggregate2012",
+    "type": "Website Design & Development",
+    "description": "Initial website I designed for Aggregate MN. Fully responsive and far exceeded the current standard in the local industry at that time.",
+    "tags": "Responsive, Custom Design, SCSS, Wordpress, concrete",
+    "squareImg": "./images/aggregate2012-square.jpg",
+    "frontImg": "./images/aggregate2012.jpg",
+    "insideImg": "",
+    "mobileImg": "./images/aggregate2012-mobile.jpg",
     "hasSite": "false",
     "extSite": ""
   },
