@@ -2,8 +2,7 @@ import React from "react"
 import { FaPhone, FaEnvelope } from "react-icons/fa"
 import { MdDescription } from "react-icons/md"
 import { siteMetadata } from "../../gatsby-config"
-
-import profilePic from "../images/profilepic.jpg"
+import ProfilePic from "./ProfilePic"
 
 const availabilityText =
   siteMetadata.available === true ? "available!" : "unavailable :("
@@ -12,11 +11,7 @@ const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns pic">
-        <img
-          className="profile-pic"
-          src={profilePic}
-          alt="Portrait illustration of Drew Olsen"
-        />
+        <ProfilePic />
         <p className={available}>
           Have work? I'm <span>{availabilityText}</span>
         </p>

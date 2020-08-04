@@ -312,20 +312,13 @@ ul#nav {
     margin-top: -80px;
   }
   &:after {
-    content: "";
+    content: url(../images/roundedAccent2.svg);
     position: absolute;
-    top: 89.5%;
+    top: 96%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    border-radius: 40px;
-    width: 0;
-    height: 0;
-    border-top: solid 50px $purple;
-    border-bottom: solid 50px $purple;
-    border-left: solid 15px transparent;
-    border-right: solid 285px transparent;
-    transform: rotate(180deg);
+    width: 350px;
 
     @media only screen and (min-width: 900px) {
       #about {
@@ -388,6 +381,7 @@ ul#nav {
   .pic {
     p {
       text-align: center;
+      padding-top: 10px;
       font-size: 14px;
       span {
         font-weight: bold;
@@ -1015,7 +1009,7 @@ footer .copyright {
 
         h1 {
           font: 48px/1.1em "Montserrat", sans-serif;
-          font-weight: bold;
+          font-weight: 800;
           margin: 0 auto 24px auto;
         }
         h3 {
@@ -1088,6 +1082,42 @@ footer .copyright {
 
       footer .twelve.columns {
         width: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #nav-wrap {
+    font: 11px "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background: rgba(33, 30, 50, 0.858);
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    .logo {
+      .site-title {
+        top: 12px;
+      }
+    }
+
+    ul#nav {
+      text-align: right;
+      height: 74px;
+      a {
+        font-size: 9px;
+        padding: 28px 4px 4px;
+        line-height: 28px;
+        transform: rotate(-45deg);
+        span {
+          position: absolute;
+          left: 34%;
+          top: 10px;
+          font-size: 20px;
+        }
       }
     }
   }
