@@ -5,14 +5,8 @@ import { siteMetadata } from "../../gatsby-config"
 import Favicon from "../images/favicon.png"
 import FastClick from "fastclick"
 
-if ("addEventListener" in document) {
-  document.addEventListener(
-    "DOMContentLoaded",
-    function () {
-      FastClick.attach(document.body)
-    },
-    false
-  )
+if (typeof window !== "undefined") {
+  FastClick.attach(document.body)
 }
 
 const Layout = ({ children }) => (
