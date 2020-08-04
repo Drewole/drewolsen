@@ -49,7 +49,7 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-transformer-json`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-fastclick`,
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

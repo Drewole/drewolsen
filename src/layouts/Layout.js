@@ -3,11 +3,6 @@ import "../scss/main.scss"
 import Helmet from "react-helmet"
 import { siteMetadata } from "../../gatsby-config"
 import Favicon from "../images/favicon.png"
-import FastClick from "fastclick"
-
-if (typeof window !== "undefined") {
-  FastClick.attach(document.body)
-}
 
 const Layout = ({ children }) => (
   <React.Fragment>
