@@ -1,5 +1,6 @@
 import React from "react"
 import { MdFace, MdCardTravel, MdDescription } from "react-icons/md"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import SiteLogo from "./SiteLogo"
 
@@ -40,23 +41,32 @@ class Navigation extends React.Component {
         <SiteLogo />
         <ul id="nav" className="nav">
           <li className={isCurrent("#about", pathname)}>
-            <a className="about" href="#about">
+            <AnchorLink
+              title="Go to the about me section"
+              className="about"
+              to="/#about"
+            >
               <span>
                 <MdFace />
               </span>
               About
-            </a>
+            </AnchorLink>
           </li>
           <li className={isCurrent("#portfolio", pathname)}>
-            <a href="#portfolio" className="portfolio">
+            <AnchorLink
+              title="Go to my portfolio"
+              to="/#portfolio"
+              className="portfolio"
+            >
               <span>
                 <MdCardTravel />
               </span>
               Portfolio
-            </a>
+            </AnchorLink>
           </li>
           <li className={isCurrent("#resume", pathname)}>
             <a
+              title="Download my resume"
               className="resume"
               rel="noopener"
               href="https://drive.google.com/file/d/1i8chX2JYvaPvsJd__pZwLBONGygN0sDs/view?usp=sharing"
