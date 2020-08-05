@@ -314,11 +314,11 @@ ul#nav {
   &:after {
     content: url(../images/roundedAccent2.svg);
     position: absolute;
-    top: 96%;
+    top: 97.1%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 350px;
+    width: 300px;
 
     @media only screen and (min-width: 900px) {
       #about {
@@ -830,9 +830,6 @@ footer .social li:first-child {
     .contact-details {
       width: 50%;
     }
-    &:after {
-      top: 90.5%;
-    }
   }
 }
 
@@ -928,7 +925,7 @@ footer .social li:first-child {
 
   //////// About Section
   #about {
-    img.profile-pic {
+    .profile-pic {
       max-width: 60%;
       margin: 0 auto 15px;
       display: block;
@@ -945,7 +942,7 @@ footer .social li:first-child {
       padding-right: 30px;
     }
     &:after {
-      top: 94.6%;
+      top: 98.4%;
     }
   }
   /////////// Portfolio #portfolio {
@@ -1088,35 +1085,37 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 320px) {
-  #nav-wrap {
-    font: 11px "Montserrat", sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    background: rgba(33, 30, 50, 0.858);
-    width: auto;
-    position: fixed;
-    top: 0;
-    right: 0;
+  header {
+    #nav-wrap {
+      font: 11px "Montserrat", sans-serif;
+      font-weight: 400;
+      letter-spacing: 1px;
+      background: rgba(33, 30, 50, 0.858);
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
 
-    .logo {
-      .site-title {
-        top: 12px;
+      .logo {
+        .site-title {
+          top: 12px;
+        }
       }
-    }
 
-    ul#nav {
-      text-align: right;
-      height: 74px;
-      a {
-        font-size: 9px;
-        padding: 28px 4px 4px;
-        line-height: 28px;
-        transform: rotate(-45deg);
-        span {
-          position: absolute;
-          left: 34%;
-          top: 10px;
-          font-size: 20px;
+      ul#nav {
+        text-align: right;
+        height: 74px;
+        a {
+          font-size: 8px;
+          padding: 28px 4px 4px;
+          line-height: 28px;
+          transform: rotate(-45deg);
+          span {
+            position: absolute;
+            left: 34%;
+            top: 10px;
+            font-size: 20px;
+          }
         }
       }
     }
