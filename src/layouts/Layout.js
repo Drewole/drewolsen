@@ -9,7 +9,6 @@ const Layout = ({ children }) => (
     <Helmet>
       <meta name={siteMetadata.author} description={siteMetadata.description} />
       <title>{siteMetadata.title}</title>
-      <description></description>
       <link rel="icon" href={Favicon} type="image/x-icon" />
     </Helmet>
 

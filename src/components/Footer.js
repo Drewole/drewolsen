@@ -2,6 +2,7 @@ import React from "react"
 import SocialLinks from "./SocialLinks"
 import { FaChevronCircleUp } from "react-icons/fa"
 import { RiGatsbyLine } from "react-icons/ri"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Footer = () => (
   <footer id="footer">
@@ -23,9 +24,9 @@ const Footer = () => (
       </div>
 
       <div id="go-top">
-        <a title="Back to Top" href="/#home">
+        <AnchorLink title="Back to Top" to="/#home">
           <FaChevronCircleUp />
-        </a>
+        </AnchorLink>
       </div>
     </div>
   </footer>

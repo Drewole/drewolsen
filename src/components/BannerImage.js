@@ -26,6 +26,7 @@ const BannerImage = () => (
         <BackgroundImage
           Tag="section"
           className="hero-bkg"
+          id="#home"
           fluid={imageData}
           backgroundColor={`#2f2b41`}
         >
