@@ -18,6 +18,8 @@ $outside-link: $aqua;
 
 // TODO We gonna clean this thing up
 
+// TODO Maybe instead of the pop up modal we just slide out a drawer below. The markup should already be there.
+
 // TODO Add your own contact page
 
 // TODO Add gifs in place of the images using react-gif-player. NEED TO LEARN HOW TO LOAD ON DEMAND FOR THIS. Fill a div with fetched data. LOAD TIMES WILL BE ATTROCIOUS if not
@@ -589,7 +591,7 @@ ul#nav {
   background: #f5f5f5;
   border-radius: 30px;
   overflow: hidden;
-  top: -50px;
+  top: 50px;
   padding-bottom: 45px;
   box-shadow: 0 0 0 2000px rgba(darken($purple, 6%), 0.85),
     0 30px 60px rgba(0, 0, 0, 0.6);
@@ -926,7 +928,7 @@ footer .social li:first-child {
   //////// About Section
   #about {
     .profile-pic {
-      max-width: 60%;
+      max-width: 50%;
       margin: 0 auto 15px;
       display: block;
     }
@@ -1086,7 +1088,7 @@ footer .copyright {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
   header {
     #nav-wrap {
       font: 11px "Montserrat", sans-serif;
@@ -1114,7 +1116,7 @@ footer .copyright {
         }
         a {
           font-size: 8px;
-          padding: 28px 4px 4px;
+          padding: 28px 6px 4px;
           letter-spacing: 0.6px;
           line-height: 28px;
           transform: rotate(-90deg);
