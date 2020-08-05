@@ -1015,6 +1015,8 @@ footer .copyright {
 
           a {
             color: darken($purple, 10%);
+            font: 15px/1.5em "Montserrat", serif;
+            font-weight: bold;
             padding: 15px 35px;
             text-shadow: 0 0px 2px rgba(lighten($brightCoral, 7%), 0.89),
               0 0px 5px rgba(lighten($brightCoral, 7%), 0.89);
@@ -1098,24 +1100,40 @@ footer .copyright {
 
       .logo {
         .site-title {
-          top: 12px;
+          top: 17px;
+          left: 10px;
         }
       }
 
       ul#nav {
         text-align: right;
         height: 74px;
+        padding-right: 10px;
+        li {
+          padding-top: 4px;
+        }
         a {
           font-size: 8px;
           padding: 28px 4px 4px;
+          letter-spacing: 0.6px;
           line-height: 28px;
-          transform: rotate(-45deg);
+          transform: rotate(-90deg);
           span {
             position: absolute;
+            transform: rotate(90deg);
             left: 34%;
             top: 10px;
             font-size: 20px;
           }
+        }
+        .about span {
+          left: 25%;
+        }
+        .portfolio span {
+          left: 33%;
+        }
+        .resume span {
+          left: 27%;
         }
       }
     }
