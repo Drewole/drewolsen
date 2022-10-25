@@ -74,7 +74,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <a
-              href="https://drive.google.com/file/d/1i8chX2JYvaPvsJd__pZwLBONGygN0sDs/view?usp=sharing"
+              href="https://docs.google.com/document/d/1BVaBmjF_cEJfX9o0K8vTuRRh-qAL9PxtyuNbv7Hj_bk/edit?usp=sharing"
               className="button"
             >
               <span>
